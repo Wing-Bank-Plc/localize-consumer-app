@@ -1385,6 +1385,11 @@
         "CANNOT_REDEEM_WITH_WINGCOIN": "Cashback redemption will not be applicable with Wingcoin. Do you wish to change from Wingcoin to Cashback?",
         "CANNOT_REDEEM_WITH_CASHBACK": "Wingcoin redemption will not be applicable with Cashback restaurants. Do you wish to change from Cashback to Wingcoin?",
         "PAYMENT": "Payment",
+        "TIP_YOUR_RIDER": "Tip Your Rider",
+        "TIP_RIDER": "Tip Rider",
+        "PERCENTAGE_GO_TO_DRIVER": "100% of the tip goes to rider",
+        "CUSTOM": "Custom",
+        "HOW_MUCH_TIP_RIDER": "How much would you tip your rider?",
         "TOTAL": "Total",
         "PROMOCODE_DISCOUNT": "Promo Code Redemption",
         "PICK_UP_YOUR_SELF": "Pick-up by Yourself",
@@ -1393,6 +1398,7 @@
         "SMALL_ORDER_FEE_DESC": "Small order fees apply when an order's subtotal is less than a certain amount. The number varies by store & the amount you purchase. You can remove the fee by adding more items.",
         "ORDER_SUMMARY": "Summary",
         "VAT_AND_FEES": "VAT and Fee",
+        "RIDER_TIP": "Rider's Tip",
         "ITEM_SOLD_OUT": "Sold-Out",
         "YOU_WILL_GET": "You will get",
         "CONGRATS_FREE_DELIVERY": "Congratulations! Your delivery is free",
@@ -1534,6 +1540,7 @@
       },
       "DELIVERY_ADDRESS": {
         "DELIVERY_ADDRESS": "Delivery Address",
+        "DELIVERY_LOCATION_LABEL": "Delivery Location Label",
         "ADDRESS_BOOK": "Address Book",
         "DELIVERY_INFO": "Delivery Info",
         "SAVED_ADDRESS": "Saved Address",
@@ -1580,7 +1587,16 @@
           "COMMUNE_IS_REQUIRED": "Commune is required"
         },
         "STANDARD_DELIVERY": "Standard Delivery",
+        "STANDARD_DELIVERY_DESC": "Pick up & delivery within 1-3 days",
+        "TERMS_AND_CONDITIONS_STANDARD_DELIVERY": "1. Enjoy our standard delivery 1-3 Days (depending on the amount stated) when you collect the voucher and spend the minimum amount to purchase products from the selected sellers. \n\n2. Enjoy our standard delivery 1-3 Days Voucher is release on a first come, first served basis and the validity of which is stated in the Free Shipping Voucher. \n\n3. Please check the details stated on the voucher as it has different coverage areas. \n\n4. Once collected, it will automatically apply during checkout. For avoidance of doubt, only ONE (1) Free Shipping Voucher will be applied for each checkout. \n\n5. You may collect and use a maximum of 10 Free Shipping Vouchers in one day.",
         "ONE_THREE_DAYS": "1-3 Days",
+        "SAME_DAY_DELIVERY": "Same Day Delivery",
+        "SAME_DAY_DELIVERY_DESC": "Pick up within 2 hours & delivery within 5 hours",
+        "EXPRESS_DELIVERY": "Express Delivery",
+        "EXPRESS_DELIVERY_DESC": "Instant pick up & delivery within 30 minutes",
+        "ESTIMATED_TIME_STANDARD_DELIVERY": "( Within 1-3 days )",
+        "ESTIMATED_TIME_SAME_DAY_DELIVERY": "( Within 5 hours )",
+        "ESTIMATED_TIME_EXPRESS_DELIVERY": "( Within 30 minutes )",
         "FAILED_TO_ADD_NEW_ADDRESS": "Failed to add new address",
         "FAILED_TO_UPDATE_ADDRESS": "Failed to update address",
         "FAILED_TO_DELETE_ADDRESS": "Failed to delete address",
@@ -1836,6 +1852,29 @@
         "IT_TIME_FOR_AN_UPDATE": "It’s time for an update!",
         "UPDATE_THE_WINGMALL_TO_KEEP_ENJOYING_YOUR_APP_WITH_ALL_NEW_FEATURES": "Update the Wingmall to keep enjoying your app with all new features.",
         "ITEM": "Items"
+      },
+      "PROMO_CODE_MODAL": {
+        "PROMO_CODE_TERM_AND_CONDITION": "Term and Condition"
+      },
+      "SERVICE_SCREEN": {
+        "CANNOT_FIND_YOUR_FAVORITE_STORE": "Cannot find your favorite store? Request it now.",
+        "REQUEST": "Request",
+        "NO_STORE_AVAILABLE": "No store available",
+        "NO_STORE_AVAILABLE_DESC": "There is no store to show you right now",
+        "ALL_STORES": "All Stores",
+        "PROMOTIONS": "Promotions"
+      },
+      "WING_POINTS": {
+        "WING_POINTS_BREAKDOWN": "Wingpoints Breakdown",
+        "ORDER_REWARD": "Order Reward",
+        "TREASURE_HUNT_REWARD": "Treasure Hunt Reward",
+        "TOTAL_RECEIVED_WING_POINTS": "Total Received Wingpoints",
+        "WING_POINTS": "Wingpoints",
+        "APPLY_WING_POINTS_TO_ORDER": "Apply Wingpoints To Your Order",
+        "BALANCE": "Balance",
+        "ENTER_POINTS": "Enter Points",
+        "DESCRIPTION_MIN_MAX": "Min. {{min}} and max. {{max}} Wingpoints",
+        "APPLY": "Apply"
       }
     },
     "MOVIE": {
@@ -3304,6 +3343,11 @@
         "CANNOT_REDEEM_WITH_WINGCOIN": "现金返还兑换不适用于 Wingcoin. 您想从 Wingcoin 更改为 Cashback 吗？",
         "CANNOT_REDEEM_WITH_CASHBACK": "Wingcoin 兑换不适用于现金返还餐厅. 您想从 Cashback 更改为 Wingcoin 吗？",
         "PAYMENT": "付款",
+        "TIP_YOUR_RIDER": "Tip Your Rider",
+        "TIP_RIDER": "Tip Rider",
+        "PERCENTAGE_GO_TO_DRIVER": "100% of the tip goes to rider",
+        "CUSTOM": "Custom",
+        "HOW_MUCH_TIP_RIDER": "How much would you tip your rider?",
         "TOTAL": "总额",
         "PROMOCODE_DISCOUNT": "促销代码折扣",
         "PICK_UP_YOUR_SELF": "自己去提取",
@@ -3312,6 +3356,7 @@
         "SMALL_ORDER_FEE_DESC": "小订单费适用于订单小计小于一定金额的情况。数量因商店和您购买的金额而异。您可以通过添加更多物品为取消这个费用。",
         "ORDER_SUMMARY": "总结",
         "VAT_AND_FEES": "增值税和费用",
+        "RIDER_TIP": "骑手小费",
         "ITEM_SOLD_OUT": "商品售罄",
         "YOU_WILL_GET": "您将得到",
         "CONGRATS_FREE_DELIVERY": "恭喜！您的快递费是免费",
@@ -3453,6 +3498,7 @@
       },
       "DELIVERY_ADDRESS": {
         "DELIVERY_ADDRESS": "Delivery Address",
+        "DELIVERY_LOCATION_LABEL": "Delivery Location Label",
         "ADDRESS_BOOK": "Address Book",
         "DELIVERY_INFO": "Delivery Info",
         "SAVED_ADDRESS": "Saved Address",
@@ -3499,7 +3545,16 @@
           "COMMUNE_IS_REQUIRED": "Commune is required"
         },
         "STANDARD_DELIVERY": "Standard Delivery",
+        "STANDARD_DELIVERY_DESC": "Pick up & delivery within 1-3 days",
+        "TERMS_AND_CONDITIONS_STANDARD_DELIVERY": "1. Enjoy our standard delivery 1-3 Days (depending on the amount stated) when you collect the voucher and spend the minimum amount to purchase products from the selected sellers. \n\n2. Enjoy our standard delivery 1-3 Days Voucher is release on a first come, first served basis and the validity of which is stated in the Free Shipping Voucher. \n\n3. Please check the details stated on the voucher as it has different coverage areas. \n\n4. Once collected, it will automatically apply during checkout. For avoidance of doubt, only ONE (1) Free Shipping Voucher will be applied for each checkout. \n\n5. You may collect and use a maximum of 10 Free Shipping Vouchers in one day.",
         "ONE_THREE_DAYS": "1-3 Days",
+        "SAME_DAY_DELIVERY": "Same Day Delivery",
+        "SAME_DAY_DELIVERY_DESC": "Pick up within 2 hours & delivery within 5 hours",
+        "EXPRESS_DELIVERY": "Express Delivery",
+        "EXPRESS_DELIVERY_DESC": "Instant pick up & delivery within 30 minutes",
+        "ESTIMATED_TIME_STANDARD_DELIVERY": "( Within 1-3 days )",
+        "ESTIMATED_TIME_SAME_DAY_DELIVERY": "( Within 5 hours )",
+        "ESTIMATED_TIME_EXPRESS_DELIVERY": "( Within 30 minutes )",
         "FAILED_TO_ADD_NEW_ADDRESS": "Failed to add new address",
         "FAILED_TO_UPDATE_ADDRESS": "Failed to update address",
         "FAILED_TO_DELETE_ADDRESS": "Failed to delete address",
@@ -3754,6 +3809,29 @@
         "IT_TIME_FOR_AN_UPDATE": "到时更新了！",
         "UPDATE_THE_WINGMALL_TO_KEEP_ENJOYING_YOUR_APP_WITH_ALL_NEW_FEATURES": "更新 Wingmall，使用所有新功能继续享受您的APP。",
         "ITEM": "商品"
+      },
+      "PROMO_CODE_MODAL": {
+        "PROMO_CODE_TERM_AND_CONDITION": "Term and Condition"
+      },
+      "SERVICE_SCREEN": {
+        "CANNOT_FIND_YOUR_FAVORITE_STORE": "找不到您最喜欢的商店？现在就申请。",
+        "REQUEST_A_STORE": "要求",
+        "NO_STORE_AVAILABLE": "没有可用的商店",
+        "NO_STORE_AVAILABLE_DESC": "目前没有商店可显示您",
+        "ALL_STORES": "所有门店",
+        "PROMOTIONS": "促销"
+      },
+      "WING_POINTS": {
+        "WING_POINTS_BREAKDOWN": "Wingpoints 分解",
+        "ORDER_REWARD": "订单奖励",
+        "TREASURE_HUNT_REWARD": "寻宝奖励",
+        "TOTAL_RECEIVED_WING_POINTS": "收到的 Wingpoints 总数",
+        "WING_POINTS": "Wingpoints",
+        "APPLY_WING_POINTS_TO_ORDER": "将 Wingpoints 应用于订单",
+        "BALANCE": "平衡",
+        "ENTER_POINTS": "输入积分",
+        "DESCRIPTION_MIN_MAX": "最小 {{min}} 和最大 {{max}} Wingpoints",
+        "APPLY": "申請"
       }
     },
     "MOVIE": {
@@ -5224,6 +5302,11 @@
         "CANNOT_REDEEM_WITH_WINGCOIN": "មិនអាចប្រើប្រាស់ទឹកប្រាក់ត្រលប់ជាមួយWingcoinបានទេ. តើអ្នកចង់ប្តូរពី Wingcoin ទៅប្រើ Cashback ដែរឬទេ?",
         "CANNOT_REDEEM_WITH_CASHBACK": "មិនអាចប្រើប្រាស់Wingcoinជាមួយហាងដែលមានទឹកប្រាក់ត្រលប់បានទេ. តើអ្នកចង់ប្តូរពី Cashback ទៅប្រើ Wingcoin ដែរឬទេ?",
         "PAYMENT": "ការទូទាត់",
+        "TIP_YOUR_RIDER": "ធីបអ្នកបើកបររបស់អ្នក",
+        "TIP_RIDER": "ធីបអ្នកបើកបរ",
+        "PERCENTAGE_GO_TO_DRIVER": "100% នៃធីបនឺងទៅដល់អ្នកបើកបរ",
+        "CUSTOM": "កែសំរួល",
+        "HOW_MUCH_TIP_RIDER": "តើអ្នកនឹងធីបអ្នកបើកបររបស់អ្នកប៉ុន្មាន?",
         "TOTAL": "សរុប",
         "PROMOCODE_DISCOUNT": "ការបញ្ចុះតម្លៃលេខកូដបញ្ចុះតំលៃ",
         "PICK_UP_YOUR_SELF": "ទៅយកផ្ទាល់ដោយខ្លួនឯង",
@@ -5232,6 +5315,7 @@
         "SMALL_ORDER_FEE_DESC": "ថ្លៃកម្មង់តិចតួចត្រូវបានអនុវត្តនៅពេលដែលការសរុបរងនៃការកម្មង់តិចជាងចំនួនដែលបានកំណត់ជាក់លាក់។ ចំនួននេះប្រែប្រួលតាមហាង និងចំនួនដែលអ្នកទិញ។ អ្នកអាចដកថ្លៃសេវានេះចេញដោយបន្ថែមទំនិញផ្សេងទៀត។",
         "ORDER_SUMMARY": "សង្ខេប",
         "VAT_AND_FEES": "ពន្ធលើតម្លៃបន្ថែម និងថ្លៃសេវា",
+        "RIDER_TIP": "ធីបសម្រាប់អ្នកដឹកជញ្ជូន",
         "ITEM_SOLD_OUT": "ទំនិញបានលក់អស់",
         "YOU_WILL_GET": "អ្នកនឹងទទួលបាន",
         "CONGRATS_FREE_DELIVERY": "អ្នកទទួលបានការដឹកជញ្ជូនឥតគិតថ្លៃ",
@@ -5373,6 +5457,7 @@
       },
       "DELIVERY_ADDRESS": {
         "DELIVERY_ADDRESS": "អាសយដ្ឋានដឹកជញ្ជូន",
+        "DELIVERY_LOCATION_LABEL": "ស្លាកទីតាំងដឹកជញ្ជូន",
         "ADDRESS_BOOK": "សៀវភៅ​អាស័យ​ដ្ឋាន",
         "DELIVERY_INFO": "ព័ត៌មានដឹកជញ្ជូន",
         "SAVED_ADDRESS": "អាស័យដ្ខានបានរក្សាទុក",
@@ -5419,7 +5504,16 @@
           "COMMUNE_IS_REQUIRED": "ឃុំ​ត្រូវ​បាន​ទាមទារ"
         },
         "STANDARD_DELIVERY": "ការដឹកជញ្ជូនស្តង់ដា",
+        "STANDARD_DELIVERY_DESC": "ដឹកជញ្ជូនចន្លោះ 1 ដល់ 3 ថ្ងៃ",
+        "TERMS_AND_CONDITIONS_STANDARD_DELIVERY": "1. សូមរីករាយជាមួយការដឹកជញ្ជូនតាមស្តង់ដាររបស់យើង 1-3 ថ្ងៃ (អាស្រ័យលើចំនួនដែលបានចែង) នៅពេលអ្នកប្រមូលប័ណ្ណទូទាត់ ហើយចំណាយអប្បបរមាដើម្បីទិញផលិតផលពីអ្នកលក់ដែលបានជ្រើសរើស។ \n\n២. សូមរីករាយជាមួយការដឹកជញ្ជូនតាមស្តង់ដាររបស់យើង ប័ណ្ណបញ្ចុះតម្លៃ 1-3 ថ្ងៃត្រូវបានចេញផ្សាយនៅលើអ្នកមកដំបូង មូលដ្ឋានដែលបានបម្រើជាលើកដំបូង និងសុពលភាពដែលបានបញ្ជាក់នៅក្នុងប័ណ្ណដឹកជញ្ជូនឥតគិតថ្លៃ។ \n\n៣. សូមពិនិត្យមើលព័ត៌មានលម្អិតដែលមានចែងនៅលើប័ណ្ណទូទាត់ ព្រោះវាមានតំបន់គ្របដណ្តប់ផ្សេងៗគ្នា។ \n\n៤. នៅពេលប្រមូលបាន វានឹងអនុវត្តដោយស្វ័យប្រវត្តិក្នុងអំឡុងពេលបង់ប្រាក់ចេញ។ ដើម្បីជៀសវាងការសង្ស័យ មានតែប័ណ្ណដឹកជញ្ជូនឥតគិតថ្លៃមួយ (1) ប៉ុណ្ណោះនឹងត្រូវបានអនុវត្តសម្រាប់ការចេញម្តងៗ។ \n\n៥. អ្នកអាចប្រមូល និងប្រើប្រាស់ប័ណ្ណដឹកជញ្ជូនឥតគិតថ្លៃអតិបរមាចំនួន 10 ក្នុងមួយថ្ងៃ។",
         "ONE_THREE_DAYS": "1-3 ថ្ងៃ",
+        "SAME_DAY_DELIVERY": "ការដឹកជញ្ជូនក្នុងថ្ងៃតែមួយ",
+        "SAME_DAY_DELIVERY_DESC": "មកយកក្នុងរយៈពេល ២ ម៉ោងនិងដឹកជញ្ជូនក្នុងរយៈពេល ៥ ម៉ោង",
+        "EXPRESS_DELIVERY": "ដឹកជញ្ជូន​ឆាប់រហ័ស",
+        "EXPRESS_DELIVERY_DESC": "មកយកភ្លាមៗ និងដឹកជញ្ជូនក្នុងរយៈពេល ៣០ នាទី",
+        "ESTIMATED_TIME_STANDARD_DELIVERY": "( ក្នុងរយៈពេល 1-3 ថ្ងៃ )",
+        "ESTIMATED_TIME_SAME_DAY_DELIVERY": "( ក្នុងរយៈពេល ៥ ម៉ោង )",
+        "ESTIMATED_TIME_EXPRESS_DELIVERY": "( ក្នុងរយៈពេល ៣០ នាទី )",
         "FAILED_TO_ADD_NEW_ADDRESS": "បរាជ័យក្នុងការបន្ថែមអាស័យដ្ខានថ្មី",
         "FAILED_TO_UPDATE_ADDRESS": "បរាជ័យក្នុងការកែប្រែអាស័យដ្ខាន",
         "FAILED_TO_DELETE_ADDRESS": "បរាជ័យក្នុងការលុបអាស័យដ្ខាន",
@@ -5475,6 +5569,7 @@
           "CLOSE": "បិទ",
           "NO": "ទេ",
           "YES": "បាទ/ចាស",
+          "NO": "No",
           "NO_THANKS": "ទេអរគុណ"
         },
         "HOME": "ទំព័រដើម",
@@ -5676,6 +5771,29 @@
         "IT_TIME_FOR_AN_UPDATE": "ដល់ពេលធ្វើបច្ចុប្បន្នភាពហើយ",
         "UPDATE_THE_WINGMALL_TO_KEEP_ENJOYING_YOUR_APP_WITH_ALL_NEW_FEATURES": "ធ្វើបច្ចុប្បន្នភាព Wingmall ដើម្បីបន្តរីករាយជាមួយកម្មវិធីរបស់អ្នកជាមួយនឹងមុខងារថ្មីៗទាំងអស់។",
         "ITEM": "ទំនិញ"
+      },
+      "PROMO_CODE_MODAL": {
+        "PROMO_CODE_TERM_AND_CONDITION": "Term and Condition"
+      },
+      "SERVICE_SCREEN": {
+        "CANNOT_FIND_YOUR_FAVORITE_STORE": "មិនអាចស្វែងរកហាងដែលអ្នកចូលចិត្តបានទេ? ស្នើសុំវាឥឡូវនេះ។",
+        "REQUEST_A_STORE": "ស្នើរសុំ",
+        "NO_STORE_AVAILABLE": "មិនមានហាងទេ",
+        "NO_STORE_AVAILABLE_DESC": "មិនមានហាងសម្រាប់បង្ហាញអ្នកនៅពេលនេះទេ",
+        "ALL_STORES": "ហាងទាំងអស់",
+        "PROMOTIONS": "ប្រូម៉ូសិន"
+      },
+      "WING_POINTS": {
+        "WING_POINTS_BREAKDOWN": "ការវិភាគ Wingpoints",
+        "ORDER_REWARD": "រង្វាន់ពីការបញ្ជាទិញ",
+        "TREASURE_HUNT_REWARD": "រង្វាន់បើកកំណប់",
+        "TOTAL_RECEIVED_WING_POINTS": "Wingpoints ទាំងអស់ដែលទទួលបាន",
+        "WING_POINTS": "Wingpoints",
+        "APPLY_WING_POINTS_TO_ORDER": "អនុវត្ត Wingpoints ទៅលើការបញ្ជាទិញ",
+        "BALANCE": "តុល្យភាព",
+        "ENTER_POINTS": "បញ្ចូល Points",
+        "DESCRIPTION_MIN_MAX": "អប្បបរមា {{min}} និងអតិបរមា {{max}} Wingpoints",
+        "APPLY": "បញ្ជូន"
       }
     },
     "MOVIE": {
