@@ -532,6 +532,7 @@
       "description_success_reporting": "Thank you for taking the time to report, your contribution is greatly appreciated.",
       "attachment": "Attachment",
       "terms_privacy": "Terms of Service and Privacy Policy",
+      "terms_policies": "Terms & Policies",
       "home_screen_discover": "Discover",
       "home_screen_categories": "Explore from Category",
       "mart_screen_categories": "Explore from Category",
@@ -1893,7 +1894,10 @@
         "BALANCE": "Balance",
         "ENTER_POINTS": "Enter Points",
         "DESCRIPTION_MIN_MAX": "Min. {{min}} and max. {{max}} Wingpoints",
-        "APPLY": "Apply"
+        "APPLY": "Apply",
+        "CANNOT_REDEEM_WITH_WING_POINTS": "This promo code is not eligible to apply with Wingpoints, Would you like to continue?",
+        "NOT_ELIGIBLE_WITH_PROMO_CODE": "Not eligible with this promo code",
+        "NOT_ELIGIBLE": "Not eligible"
       }
     },
     "MOVIE": {
@@ -2509,6 +2513,7 @@
       "description_success_reporting": "感谢您抽出时间进行报告，我们非常感激您的贡献。",
       "attachment": "附件",
       "terms_privacy": "服务条款和隐私政策",
+      "terms_policies": "条款和政策",
       "home_screen_discover": "查出",
       "home_screen_categories": "从类别中探索",
       "mart_screen_categories": "从类别中探索",
@@ -3869,7 +3874,10 @@
         "BALANCE": "平衡",
         "ENTER_POINTS": "输入积分",
         "DESCRIPTION_MIN_MAX": "最小 {{min}} 和最大 {{max}} Wingpoints",
-        "APPLY": "申請"
+        "APPLY": "申請",
+        "CANNOT_REDEEM_WITH_WING_POINTS": "此促銷代碼不適用於 Wingpoints，您想繼續嗎？",
+        "NOT_ELIGIBLE_WITH_PROMO_CODE": "不符合使用此促銷代碼的資格",
+        "NOT_ELIGIBLE": "不容忽視"
       }
     },
     "MOVIE": {
@@ -4487,6 +4495,7 @@
       "description_success_reporting": "អរគុណចំពោះការរាយការណ៍បញ្ហារបស់អ្នក, ការរួមចំណែករបស់អ្នកគឺមានតម្លៃ។",
       "attachment": "ឯកសារភ្ជាប់",
       "terms_privacy": "លក្ខខណ្ឌនៃសេវាកម្ម និងគោលការណ៍ឯកជនភាព",
+      "terms_policies": "គោលការណ៍ និងលក្ខខណ្ឌ",
       "home_screen_discover": "ស្វែងរក",
       "home_screen_recent_orders": "ការកម្មង់ថ្មីៗ",
       "home_screen_recent_merchants": "ហាងថ្មី",
@@ -5849,7 +5858,10 @@
         "BALANCE": "តុល្យភាព",
         "ENTER_POINTS": "បញ្ចូល Points",
         "DESCRIPTION_MIN_MAX": "អប្បបរមា {{min}} និងអតិបរមា {{max}} Wingpoints",
-        "APPLY": "បញ្ជូន"
+        "APPLY": "បញ្ជូន",
+        "CANNOT_REDEEM_WITH_WING_POINTS": "កូដបញ្ចុះតម្លៃនេះមិនអនុញ្ញាតប្រើជាមួយ Wingpoints ទេ តើអ្នកចង់បន្តទេ?",
+        "NOT_ELIGIBLE_WITH_PROMO_CODE": "មិនអនុញ្ញាតប្រើជាមួយកូដបញ្ចុះតម្លៃ",
+        "NOT_ELIGIBLE": "មិនអនុញ្ញាត"
       }
     },
     "MOVIE": {
