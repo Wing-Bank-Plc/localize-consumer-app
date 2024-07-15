@@ -1060,7 +1060,7 @@
       "account_required_desc": "Please sign up or sign in to your account to process further steps and explore more.",
       "sign_up_or_sign_in": "SIGN UP OR SIGN IN",
       "hi_guest": "Hi Guest",
-      "login_as_guest": "LOGIN AS GUEST",
+      "login_as_guest": "LOGIN AS GUEST TEST",
       "default": "Default",
       "app_not_installed": "App not installed",
       "cannot_open": "Cannot open {{appName}}",
