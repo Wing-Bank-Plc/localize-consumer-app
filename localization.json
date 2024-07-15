@@ -1023,7 +1023,7 @@
       "did_not_received_a_code": "Did not receive a code?",
       "did_not_received_otp": "Resend code in",
       "language_option_sub_title": "Which language do you prefer?",
-      "enter_phone_number": "Enter your phone number to get started",
+      "enter_phone_number": "Enter your phone number to get started app",
       "otp_input_description": "Enter a OTP code we sent via SMS to your registered phone number {{phone}}",
       "otp_email_description": "Enter 6 digits code sent to your email",
       "otp_phone_description": "Enter 6 digits code sent to your mobile number",
