@@ -957,6 +957,7 @@
       "change_to_deliver_asap": "Change to deliver ASAP",
       "disable_scheduled_order": "We're closing scheduled order temporarily.",
       "pay_now": "Pay now",
+      "tap_to_change": "Tap to change",
       "change_pick_up_time": "Change Pick-up Time",
       "set_delivery_time": "Set delivery time",
       "set_pick_up_time": "Set pick-up time",
@@ -1405,7 +1406,7 @@
         "CANNOT_REDEEM_WITH_CASHBACK": "Wingpoints redemption will not be applicable with Cashback restaurants. Do you wish to change from Cashback to Wingpoints?",
         "PAYMENT": "Payment",
         "TIP_YOUR_RIDER": "Tip Your Rider",
-        "TIP_RIDER": "Tip Rider",
+        "TIP_RIDER": "Tipping Rider",
         "PERCENTAGE_GO_TO_DRIVER": "100% of the tip goes to rider",
         "CUSTOM": "Custom",
         "HOW_MUCH_TIP_RIDER": "How much would you tip your rider?",
@@ -1428,7 +1429,11 @@
         "ALERT": "Alert",
         "SET_DELIVERY_TIME": "Set delivery time",
         "CHANG_TO_ASAP_DESCRIPTION": "Are you sure that you want to change to deliver ASAP?",
-        "DELIVERY_TIME_CANNOT_SET_BEFORE": "Delivery time cannot set before the estimate arrival time."
+        "DELIVERY_TIME_CANNOT_SET_BEFORE": "Delivery time cannot set before the estimate arrival time.",
+        "DESCRIPTION_MIN_MAX": "Min: ${{min}} Max: ${{max}}",
+        "NO_TIP": "No Tip",
+        "PLACEHOLDER_TIP": "Ex: $5",
+        "TAP_TO_CHANGE": "Tap to change"
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "My Order",
@@ -2942,6 +2947,7 @@
       "change_to_deliver_asap": "更改为尽快交付",
       "disable_scheduled_order": "我们暂时关闭预定订单。",
       "pay_now": "立即付款",
+      "tap_to_change": "点击更改",
       "change_pick_up_time": "更改取货时间",
       "set_delivery_time": "设置交付货时间",
       "set_pick_up_time": "设置提取货时间",
@@ -3413,7 +3419,11 @@
         "ALERT": "Alert",
         "SET_DELIVERY_TIME": "设置交付货时间",
         "CHANG_TO_ASAP_DESCRIPTION": "您确定要更改以尽快交付吗？",
-        "DELIVERY_TIME_CANNOT_SET_BEFORE": "交貨時間不能設置在預計到達時間之前。"
+        "DELIVERY_TIME_CANNOT_SET_BEFORE": "交貨時間不能設置在預計到達時間之前。",
+        "DESCRIPTION_MIN_MAX": "最小: ${{min}} 和最大: ${{max}}",
+        "NO_TIP": "不提供小费",
+        "PLACEHOLDER_TIP": "例子: $5",
+        "TAP_TO_CHANGE": "点击更改"
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "My Order",
@@ -4928,6 +4938,7 @@
       "change_to_deliver_asap": "ប្តូរទៅជាដឹកជញ្ជូនឱ្យបានឆាប់តាមដែលអាចធ្វើបាន",
       "disable_scheduled_order": "យើងកំពុងបិទការកម្មង់ដែលបានកំណត់ពេលជាបណ្តោះអាសន្ន។",
       "pay_now": "បង់ឥឡូវនេះ",
+      "tap_to_change": "ចុចដើម្បីផ្លាស់ប្តូរ",
       "change_pick_up_time": "ប្តូរពេលវេលាទៅយកផ្ទាល់",
       "set_delivery_time": "កំណត់ពេលវេលាដឹកជញ្ជូន",
       "set_pick_up_time": "កំណត់ពេលវេលាទៅយកផ្ទាល់",
@@ -5399,7 +5410,11 @@
         "ALERT": "Alert",
         "SET_DELIVERY_TIME": "កំណត់ពេលវេលាដឹកជញ្ជូន",
         "CHANG_TO_ASAP_DESCRIPTION": "តើអ្នកប្រាកដថាអ្នកចង់ផ្លាស់ប្តូរការដឹកជញ្ជូនទៅ ASAP?",
-        "DELIVERY_TIME_CANNOT_SET_BEFORE": "ពេលវេលាដឹកជញ្ជូនមិនអាចកំណត់មុនម៉ោងមកដល់តាមការប៉ាន់ស្មានបានទេ។"
+        "DELIVERY_TIME_CANNOT_SET_BEFORE": "ពេលវេលាដឹកជញ្ជូនមិនអាចកំណត់មុនម៉ោងមកដល់តាមការប៉ាន់ស្មានបានទេ។",
+        "DESCRIPTION_MIN_MAX": "តិចបំផុត: ${{min}} ច្រើនបំផុត: ${{max}}",
+        "NO_TIP": "គ្មានធីប",
+        "PLACEHOLDER_TIP": "ឧទាហរណ៍: $5",
+        "TAP_TO_CHANGE": "ចុចដើម្បីផ្លាស់ប្តូរ"
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "ការកម្មង់របស់ខ្ញុំ",
