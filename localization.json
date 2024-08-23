@@ -86,7 +86,7 @@
       "account": "Account",
       "pickup": "Pick-up",
       "pick_up_service": "Pick-up",
-      "food_description": "Order what you love",
+      "food_description": "Order what you love test",
       "fill_your_fridge": "Fill your fridge",
       "get_item_delivery": "Get items\ndelivered",
       "find_your_own_life_style": "Find your own lifestyle",
@@ -1162,7 +1162,7 @@
         "BEAUTY": "Beauty",
         "FLASH_SALE": "Flash sale",
         "VIEW_ALL": "View All",
-        "YOUR_BEST_PICK": "Your Best Pick",
+        "YOUR_BEST_PICK": "Your Best Pick test",
         "SEE_ALL": "See all",
         "ALL_CATEGORY": "All Category",
         "KID": "Kids",
@@ -1916,7 +1916,7 @@
         "NOW_SHOWING": "Now Showing",
         "COMING_SOON": "Coming Soon",
         "TODAY": "Today",
-        "FILTER_CINEMA": "Filter Cinema",
+        "FILTER_CINEMA": "Filter Cinema test",
         "ALL_CINEMAS": "All Cinemas"
       },
       "SEARCH_SCREEN": {
