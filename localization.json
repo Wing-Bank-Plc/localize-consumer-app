@@ -1772,7 +1772,10 @@
         "PM": "PM",
         "USE_NOW": "USE NOW",
         "NEVER_EXPIRE": "Never Expires",
-        "FREE": "FREE"
+        "FREE": "FREE",
+        "CONFIRMATION": "Confirmation",
+        "CONFIRMATION_DESCRIPTION": "Are you sure you want to proceed with this action?",
+        "CONFIRMATION_DESCRIPTION_DELETE": "Are you sure you want to delete those items?"
       },
       "REGIONS": {
         "KEP": "Kep",
@@ -3783,7 +3786,10 @@
         "PM": "中午",
         "USE_NOW": "USE NOW",
         "NEVER_EXPIRE": "Never Expires",
-        "FREE": "免费"
+        "FREE": "免费",
+        "CONFIRMATION": "确认",
+        "CONFIRMATION_DESCRIPTION": "您确定要继续此操作吗？",
+        "CONFIRMATION_DESCRIPTION_DELETE": "您确实要删除这些项目吗？"
       },
       "REGIONS": {
         "KEP": "Kep",
@@ -5796,7 +5802,10 @@
         "PM": "ពេលថ្ងៃ",
         "USE_NOW": "ប្រើប្រាស់",
         "NEVER_EXPIRE": "គ្មានកាលកំណត់",
-        "FREE": "ឥតគិតថ្លៃ"
+        "FREE": "ឥតគិតថ្លៃ",
+        "CONFIRMATION": "បញ្ជាក់",
+        "CONFIRMATION_DESCRIPTION": "តើអ្នកប្រាកដថាចង់បន្តសកម្មភាពនេះទេ?",
+        "CONFIRMATION_DESCRIPTION_DELETE": "តើអ្នកប្រាកដថាចង់លុបការជូនដំណឹងទាំងនោះមែនទេ?"
       },
       "REGIONS": {
         "KEP": "កែប",
