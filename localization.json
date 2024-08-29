@@ -5,9 +5,10 @@
       "rider_tip": "Rider's Tip",
       "no_cashback_voucher": "No cashback available",
       "require_location_title": "Enable your location",
-      "require_location_desc": "This helps us to accurately deliver to your address and faster",
-      "enable_location": "Continue",
+      "require_location_desc": "To search for the best nearby restaurants and accurate address for delivery faster, we would want to know your current location",
+      "enable_location": "Enable Location",
       "detect_location": "Detect Location",
+      "enter_location_manually": "Select Location Manually",
       "no_internet_connection": "No Internet Connection!",
       "ooops": "Ooops!",
       "slow_or_no_internet_connection": "Slow or no internet connection, Sometimes waving your device can help.",
@@ -20,6 +21,7 @@
       "show_traffic": "Show traffic",
       "hide_traffic": "Hide traffic",
       "please_check_your_phone_number": "Please check your phone number, a OTP will be sent via SMS at number \n\n{{phone}}",
+      "please_check_your_email": "Please check your email, an OTP will be sent via email \n\n{{email}}",
       "add_your_favorite_now": "ADD YOUR FAVORITE NOW",
       "cannot_find_your_favorite_store": "cannot find your favorite store? Request it now.",
       "what_went_wrong": "what went wrong? How can we do better?",
@@ -78,7 +80,7 @@
       "reward": "Rewards",
       "gift_card": "Gift Cards",
       "promotion": "Promo",
-      "movie": "Movie",
+      "movie": "Movie Ticket",
       "explore": "Explore",
       "promo": "Promo",
       "order": "Order",
@@ -179,6 +181,7 @@
       "something_went_wrong_update_inboxes": "Something went wrong while updating inboxes",
       "read_all": "Read all",
       "clear_messages": "Clear message",
+      "terms_policies": "Terms & Policies",
       "my_order_title": "My Order",
       "my_order_recent_orders_label": "Recent Orders",
       "my_order_recent_orders_desc": "Tap here to view your recent orders",
@@ -281,8 +284,8 @@
       "courier_unavailable_time_alert": "The service is available to book from {{startedAt}}-{{endedAt}} only.",
       "label_same_day_delivery": "Same-day delivery unavailable",
       "save_draft_order": "Draft",
-      "changes_not_saved": "Your changes have not been saved.",
       "remove_draft_confirmation": "Are you sure you want to remove this draft order?",
+      "changes_not_saved": "Your changes have not been saved.",
       "cancel": "Cancel",
       "driver_contact": "Driver Contact",
       "enter_account_name": "Enter account name (e.g. Bora Mey)",
@@ -290,9 +293,9 @@
       "invalid_info": "Invalid Info",
       "cod_validate": "Invalid Collect Payment.",
       "phone_validate": "Invalid Phone Number",
-      "phone_validate_exist": "Phone Number is already used.",
       "only_number_allowed": "Only Numbers are allowed.",
       "number_validate": "Name must be at least 2 characters.",
+      "phone_validate_exist": "Phone Number is already used.",
       "aba_account_number_validate": "Invalid Wing Account Number.",
       "location_validate": "Please pin your {{locationType}} location.",
       "aba_account_0": " Please fill your Account Name",
@@ -532,7 +535,6 @@
       "description_success_reporting": "Thank you for taking the time to report, your contribution is greatly appreciated.",
       "attachment": "Attachment",
       "terms_privacy": "Terms of Service and Privacy Policy",
-      "terms_policies": "Terms & Policies",
       "home_screen_discover": "Discover",
       "home_screen_categories": "Explore from Category",
       "mart_screen_categories": "Explore from Category",
@@ -619,6 +621,7 @@
       "add_to_cart": "Add To Cart",
       "save_these_changes": "Save these changes to your cart?",
       "discard": "Discard",
+      "please_select_options": "Please select option",
       "add_your_special_note_here": "Add your special note here...",
       "block_order_back": "Back",
       "driver_busy": "Drivers are unavailable currently.",
@@ -676,6 +679,8 @@
       "oops_out_of_region_description": "We're trying to expand our service to your location soon",
       "out_of_zone_short_text": "Out of zone",
       "out_of_zone_long_text": "We detected that your zone is not in our available services, We're trying to expand our service to your region soon",
+      "searching_location": "Detecting Your Location",
+      "please_allow_permission": "Tap here to enable device location for accurate delivery address and faster delivery.",
       "continue": "Continue",
       "your_delivery_location": "Your Delivery Location",
       "current_order": "Current Order",
@@ -913,6 +918,7 @@
       "reward_get_start": "Get Start",
       "location_delivery_to": "Deliver to ",
       "location_current_location": "Current Location",
+      "location_use_my_current_location": "Use My Current Location",
       "location_save_location": "Saved Locations",
       "location_search_location": "Search Location",
       "location_home": "Home",
@@ -1142,7 +1148,8 @@
       "modal_social_disconnect_info": "You can reconnect it at any time in the future",
       "social_already_connected": "This social account is already connected to another account",
       "phone_already_connected_label": "Phone number already used",
-      "phone_already_connected_description": "This phone number is already connected to another account, please use another phone number."
+      "phone_already_connected_description": "This phone number is already connected to another account, please use another phone number.",
+      "unstable_internet_connection": "Your internet connection is unstable."
     },
     "SHOPPING": {
       "HOME_SCREEN": {
@@ -1164,7 +1171,6 @@
         "VIEW_ALL": "View All",
         "YOUR_BEST_PICK": "Your Best Pick",
         "SEE_ALL": "See all",
-        "ALL_CATEGORY": "All Category",
         "KID": "Kids",
         "JEWELRY": "Jewelry",
         "HOME": "Home",
@@ -1434,7 +1440,11 @@
         "DESCRIPTION_MIN_MAX": "Min: ${{min}} Max: ${{max}}",
         "NO_TIP": "No Tip",
         "PLACEHOLDER_TIP": "Ex: $5",
-        "TAP_TO_CHANGE": "Tap to change"
+        "TAP_TO_CHANGE": "Tap to change",
+        "WARNING_LOCATION_CHANGE": "You've changed location; add more items to get free delivery.",
+        "DELIVERY_OFFER_BY_ORDER": "Spent ${{minOrder}}, Get ${{discountOffer}} Delivery Discount",
+        "CONGRATS_DELIVERY_OFFER": "Congratulations! You get ${{discountOffer}} delivery discount",
+        "GET_DELIVERY_OFFER": "more, get ${{discountOffer}} delivery discount"
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "My Order",
@@ -1630,7 +1640,10 @@
         "FAILED_TO_UPDATE_ADDRESS": "Failed to update address",
         "FAILED_TO_DELETE_ADDRESS": "Failed to delete address",
         "HOUSE_APARTMENT_STREET_NUMBER_PLACEHOLDER": "e.g. #12Ao, St. 34",
-        "DELIVERY_NOTE_PLACEHOLDER": "e.g. Please put on front porch"
+        "DELIVERY_NOTE_PLACEHOLDER": "e.g. Please put on front porch",
+        "CONFIRM_ADDRESS_DESCRIPTION": "Please select or add a delivery address to proceed with the order.",
+        "GO_TO_ADDRESS_BOOK": "Go to Address Book",
+        "LOCATION_IS_REQUIRED": "Location is required"
       },
       "CATEGORY_SCREEN": {
         "CATEGORY": "Category",
@@ -1760,7 +1773,10 @@
         "PM": "PM",
         "USE_NOW": "USE NOW",
         "NEVER_EXPIRE": "Never Expires",
-        "FREE": "FREE"
+        "FREE": "FREE",
+        "CONFIRMATION": "Confirmation",
+        "CONFIRMATION_DESCRIPTION": "Are you sure you want to proceed with this action?",
+        "CONFIRMATION_DESCRIPTION_DELETE": "Are you sure you want to delete those items?"
       },
       "REGIONS": {
         "KEP": "Kep",
@@ -1885,14 +1901,6 @@
       "PROMO_CODE_MODAL": {
         "PROMO_CODE_TERM_AND_CONDITION": "Term and Condition"
       },
-      "SERVICE_SCREEN": {
-        "CANNOT_FIND_YOUR_FAVORITE_STORE": "Cannot find your favorite store? Request it now.",
-        "REQUEST": "Request",
-        "NO_STORE_AVAILABLE": "No store available",
-        "NO_STORE_AVAILABLE_DESC": "There is no store to show you right now",
-        "ALL_STORES": "All Stores",
-        "PROMOTIONS": "Promotions"
-      },
       "WING_POINTS": {
         "WING_POINTS_BREAKDOWN": "Wingpoints Breakdown",
         "ORDER_REWARD": "Order Reward",
@@ -1907,6 +1915,14 @@
         "CANNOT_REDEEM_WITH_WING_POINTS": "This promo code is not eligible to apply with Wingpoints, Would you like to continue?",
         "NOT_ELIGIBLE_WITH_PROMO_CODE": "Not eligible with this promo code",
         "NOT_ELIGIBLE": "Not eligible"
+      },
+      "SERVICE_SCREEN": {
+        "CANNOT_FIND_YOUR_FAVORITE_STORE": "Cannot find your favorite store? Request it now.",
+        "REQUEST": "Request",
+        "NO_STORE_AVAILABLE": "No store available",
+        "NO_STORE_AVAILABLE_DESC": "There is no store to show you right now",
+        "ALL_STORES": "All Stores",
+        "PROMOTIONS": "Promotions"
       }
     },
     "MOVIE": {
@@ -1968,7 +1984,13 @@
         "PROMO_CODE": "Promo Code",
         "APPLY_PROMO_CODE": "Apply Promo Code",
         "GIFT_CARD": "Gift Card",
-        "AVAILABLE_OFFERS": "Available Offers"
+        "AVAILABLE_OFFERS": "Available Offers",
+        "PLEASE_WAIT_UNTIL_CHECKOUT_PROGRESS_COMPLETED": "Please wait until checkout progress completed.",
+        "WING_POINT": "Wingpoints",
+        "NOTICED": "Noticed",
+        "CANNOT_REDEEM_WITH_WING_POINTS": "This promo code is not eligible to apply with Wingpoints, Would you like to continue?",
+        "NOT_ELIGIBLE_WITH_PROMO_CODE": "Not eligible with this promo code",
+        "NOT_ELIGIBLE": "Not eligible"
       },
       "COMMON": {
         "BTN": {
@@ -1982,7 +2004,9 @@
         "GET_YOUR_POPCORN_READY": "Get your popcorn ready",
         "ORDER_NOW": "Order Now",
         "SHOW_QR": "Show QR",
-        "SCAN_QR_CODE_AT_THE_TICKET_COUNTER_OR_KIOSK_MACHINE": "Scan QR code at the ticket counter or KIOSK marchine."
+        "SCAN_QR_CODE_AT_THE_TICKET_COUNTER_OR_KIOSK_MACHINE": "Scan QR code at the ticket counter or Kiosk machine.",
+        "EARNING_WING_POINTS": "Earning +{{point}} Wingpoints",
+        "WINGPOINTS_HAS_BEEN_TRANSFERRED": "Wingpoints has been transferred."
       },
       "MOVIE_TICKETS": {
         "EMPTY_ORDER": "No booking found.",
@@ -1999,6 +2023,7 @@
       "require_location_desc": "这有助于我们准确、快速地送达您的地址",
       "enable_location": "启用位置",
       "detect_location": "检测位置",
+      "enter_location_manually": "手动输入位置",
       "no_internet_connection": "没有网络连接！",
       "ooops": "Ooops!",
       "slow_or_no_internet_connection": "缓慢或没有网络连接，有时挥动你的设备会有所帮助。",
@@ -2011,6 +2036,7 @@
       "show_traffic": "显示交通情况",
       "hide_traffic": "隐藏流量",
       "please_check_your_phone_number": "请检查您的电话号码，OTP代码将通过短信发送到此电话号码 \n\n{{phone}}",
+      "please_check_your_email": "请检查您的电子邮件，OTP 将通过电子邮件发送 \n\n{{email}}",
       "add_your_favorite_now": "现在添加您的最爱",
       "cannot_find_your_favorite_store": "找不到您最喜欢的商店？现在就申请。",
       "what_went_wrong": "出了什么问题？我们怎样才能做得更好？",
@@ -2069,7 +2095,7 @@
       "reward": "奖励",
       "gift_card": "礼品卡",
       "promotion": "促销",
-      "movie": "电影",
+      "movie": "电影票",
       "explore": "主页",
       "promo": "促销",
       "order": "订购",
@@ -2132,7 +2158,6 @@
       "boarding_email_label": "Email",
       "boarding_email_placeholder": "Enter your email",
       "boarding_email_invalid": "Invalid email",
-      "profile_security": "Security",
       "profile_view_account_label": "查看账户",
       "profile_log_out_label": "退出",
       "profile_language_label": "语言",
@@ -2164,12 +2189,14 @@
       "security": "Security",
       "profile_card_detail_label": "Card Detail",
       "profile_add_card_label": "Add Card",
+      "profile_security": "Security",
       "profile_password_not_match": "The confirmation password doesn't match the entered password.",
       "my_inbox_title": "收件箱",
       "my_inbox_order_now_label": "立即订购",
       "something_went_wrong_update_inboxes": "Something went wrong while updating inboxes",
       "read_all": "读全部",
       "clear_messages": "删除消息",
+      "terms_policies": "条款和政策",
       "my_order_title": "我的订单",
       "my_order_recent_orders_label": "最近的订单",
       "my_order_recent_orders_desc": "点击此处查看您最近的订单",
@@ -2272,8 +2299,8 @@
       "courier_unavailable_time_alert": "该服务仅适用于{{startedAt}}-{{endedAt}}预订。",
       "label_same_day_delivery": "同日交货不可用",
       "save_draft_order": "草稿",
-      "changes_not_saved": "您的更改尚未保存。",
       "remove_draft_confirmation": "您确定要删除此草稿订单吗？",
+      "changes_not_saved": "您的更改尚未保存。",
       "cancel": "取消",
       "driver_contact": "驾驶员联系方式",
       "enter_account_name": "输入账户名称（例如：Bora Mey）",
@@ -2281,9 +2308,9 @@
       "invalid_info": "无效信息",
       "cod_validate": "收款无效",
       "phone_validate": "电话号码无效",
-      "phone_validate_exist": "电话号码已被使用",
       "only_number_allowed": "只允许数字",
       "number_validate": "姓名必须至少包含 2 个字符。",
+      "phone_validate_exist": "电话号码已被使用",
       "aba_account_number_validate": "Wing帐号无效",
       "location_validate": "请锁定您的{{locationType}}位置。",
       "aba_account_0": "请填写您的帳戶 姓名",
@@ -2483,13 +2510,13 @@
       "you_earned": "您已经收到",
       "you_spent": "您已经缴费",
       "congratulation_on_receiving": "Congratulation on receiving {{amount}} Wingpoints",
-      "you_have_received_from_merchant": "您已从商家收到价值{{amount}}的币",
-      "view_wingcoin_wallet": "查看Wingpoints的钱包",
-      "wingcoin_program": "额外可用的钱包",
-      "coins_is_successfully_transferred": "币已成功传发",
       "congrate_you_are_amount_coin": "恭喜您获得价值{{count}}的币",
       "congrate_you_are_amount_coin_plural": "恭喜您获得价值{{count}}的币",
+      "you_have_received_from_merchant": "您已从商家收到价值{{amount}}的币",
       "hey_you_should_not_miss_this_limited_offer": "嘿！你不应该错过这个有限的优惠。\n我在 {{merchant}} 订单并收到{{amount}}币。立即购买：{{link}}",
+      "view_wingcoin_wallet": "查看Wingcoin的钱包",
+      "wingcoin_program": "额外可用的钱包",
+      "coins_is_successfully_transferred": "币已成功传发",
       "coins": "Coins",
       "you_will_receive": "You will receive",
       "wallet": "Wallet",
@@ -2523,7 +2550,6 @@
       "description_success_reporting": "感谢您抽出时间进行报告，我们非常感激您的贡献。",
       "attachment": "附件",
       "terms_privacy": "服务条款和隐私政策",
-      "terms_policies": "条款和政策",
       "home_screen_discover": "查出",
       "home_screen_categories": "从类别中探索",
       "mart_screen_categories": "从类别中探索",
@@ -2610,6 +2636,7 @@
       "add_to_cart": "添加到购物车",
       "save_these_changes": "是否将这些更改保存到您的购物车？",
       "discard": "丢弃",
+      "please_select_options": "请选择选项",
       "add_your_special_note_here": "在此处添加您的特殊注释",
       "block_order_back": "返回",
       "driver_busy": "驾驶员当前不可用",
@@ -2667,6 +2694,8 @@
       "oops_out_of_region_description": "我们努力尽快将我们的服务扩展到您所在的地区",
       "out_of_zone_short_text": "超出配送范围",
       "out_of_zone_long_text": "我们检测到您的送货地点不在我们提供的服务范围内，我们正在努力将我们的服务扩展到您所在的地区",
+      "searching_location": "寻找你的位置",
+      "please_allow_permission": "点击此处启用设备定位，以获得准确的送货地址和更快的送货速度。",
       "continue": "继续",
       "your_delivery_location": "您的送货地点",
       "current_order": "当前订单",
@@ -2904,6 +2933,7 @@
       "reward_get_start": "开始",
       "location_delivery_to": "传送至",
       "location_current_location": "当前位置",
+      "location_use_my_current_location": "使用我的当前位置",
       "location_save_location": "保存位置",
       "location_search_location": "搜索位置",
       "location_home": "主页",
@@ -2994,9 +3024,9 @@
       "notice": "Notice",
       "other_specify": "其他（请标注）",
       "add": "添加",
-      "payment_option": "支付选项",
       "available_wallets": "Available Wallets",
       "balance": "平衡",
+      "payment_option": "支付选项",
       "store_closed": "商店关门了",
       "use_code": "使用代码“{{code}}”获得折扣",
       "minute_of_travel": "旅行的{{duration}}",
@@ -3089,8 +3119,8 @@
       "from": "从",
       "unknown": "未知",
       "card_expired": "卡已过期",
-      "stop_finding_description": "您确定要停止寻找驱动程序吗？",
       "please_fill_express_form": "请确保您已输入您的信息。",
+      "stop_finding_description": "您确定要停止寻找驱动程序吗？",
       "delivery_time_cannot_set_before": "交貨時間不能設置在預計到達時間之前。",
       "fee_save": "节省",
       "draft_saved": "已保存",
@@ -3098,12 +3128,12 @@
       "redemption_failed": "兌換失敗",
       "driver_not_found_please_try_again": "找不到驅動，請稍後再試",
       "error_something_while_finding_driver": "抱歉，在停止查找驅動程序時出了點問題。",
-      "no_menu_available": "沒有可用的菜單",
-      "no_menu_available_desc": "目前沒有菜單可顯示",
       "order_only": "僅訂購",
-      "on_this_order": "在這個訂單上!",
       "you_just_saved": "你剛剛保存",
+      "on_this_order": "在這個訂單上!",
+      "no_menu_available": "沒有可用的菜單",
       "more_to_get_this_offer": "更多獲得此優惠。",
+      "no_menu_available_desc": "目前沒有菜單可顯示",
       "something_went_wrong_saving_draft": "保存草稿訂單時出現問題，請稍後重試。",
       "wing_account_not_match": "{{accountName}} 和 {{accountNumber}} 不匹配",
       "account_exist": "賬戶存在！",
@@ -3133,7 +3163,8 @@
       "modal_social_disconnect_info": "You can reconnect it at any time in the future",
       "social_already_connected": "This social account is already connected to another account",
       "phone_already_connected_label": "Phone number already used",
-      "phone_already_connected_description": "This phone number is already connected to another account, please use another phone number."
+      "phone_already_connected_description": "This phone number is already connected to another account, please use another phone number.",
+      "unstable_internet_connection": "您的互联网连接不稳定"
     },
     "SHOPPING": {
       "HOME_SCREEN": {
@@ -3155,7 +3186,6 @@
         "VIEW_ALL": "View All",
         "YOUR_BEST_PICK": "Your Best Pick",
         "SEE_ALL": "See all",
-        "ALL_CATEGORY": "所有类别",
         "KID": "Kids",
         "JEWELRY": "Jewelry",
         "HOME": "Home",
@@ -3397,11 +3427,11 @@
         "CANNOT_REDEEM_WITH_WINGCOIN": "现金返还兑换不适用于 Wingpoints. 您想从 Wingpoints 更改为 Cashback 吗？",
         "CANNOT_REDEEM_WITH_CASHBACK": "Wingpoints 兑换不适用于现金返还餐厅. 您想从 Cashback 更改为 Wingpoints 吗？",
         "PAYMENT": "付款",
-        "TIP_YOUR_RIDER": "Tip Your Rider",
-        "TIP_RIDER": "Tip Rider",
-        "PERCENTAGE_GO_TO_DRIVER": "100% of the tip goes to rider",
-        "CUSTOM": "Custom",
-        "HOW_MUCH_TIP_RIDER": "How much would you tip your rider?",
+        "TIP_YOUR_RIDER": "给乘客小费",
+        "TIP_RIDER": "小费骑士",
+        "PERCENTAGE_GO_TO_DRIVER": "100% 小费将归给乘客",
+        "CUSTOM": "风俗",
+        "HOW_MUCH_TIP_RIDER": "您会给乘客多少小费？",
         "TOTAL": "总额",
         "PROMOCODE_DISCOUNT": "促销代码折扣",
         "PICK_UP_YOUR_SELF": "自己去提取",
@@ -3425,7 +3455,11 @@
         "DESCRIPTION_MIN_MAX": "最小: ${{min}} 和最大: ${{max}}",
         "NO_TIP": "不提供小费",
         "PLACEHOLDER_TIP": "例子: $5",
-        "TAP_TO_CHANGE": "点击更改"
+        "TAP_TO_CHANGE": "点击更改",
+        "WARNING_LOCATION_CHANGE": "您已更改位置；添加更多商品即可享受免费送货。",
+        "DELIVERY_OFFER_BY_ORDER": "花费 ${{minOrder}}, 得到 ${{discountOffer}} 送货折扣",
+        "CONGRATS_DELIVERY_OFFER": "恭喜！您可获得 ${{discountOffer}} 送货折扣",
+        "GET_DELIVERY_OFFER": "更多，可获得 ${{discountOffer}} 送货折扣"
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "My Order",
@@ -3621,7 +3655,10 @@
         "FAILED_TO_UPDATE_ADDRESS": "Failed to update address",
         "FAILED_TO_DELETE_ADDRESS": "Failed to delete address",
         "HOUSE_APARTMENT_STREET_NUMBER_PLACEHOLDER": "e.g. #12Ao, St. 34",
-        "DELIVERY_NOTE_PLACEHOLDER": "e.g. Please put on front porch"
+        "DELIVERY_NOTE_PLACEHOLDER": "e.g. Please put on front porch",
+        "CONFIRM_ADDRESS_DESCRIPTION": "Please select or add a delivery address to proceed with the order.",
+        "GO_TO_ADDRESS_BOOK": "Go to Address Book",
+        "LOCATION_IS_REQUIRED": "Location is required"
       },
       "CATEGORY_SCREEN": {
         "CATEGORY": "Category",
@@ -3743,7 +3780,7 @@
           "INSUFFICIENT_BALANCE": "Insufficient Balance",
           "UNDER_MAINTENANCE": "Under Maintenance",
           "WING_COIN_TERM_AND_CONDITION": "Term and Condition",
-          "WING_COIN_TERM_AND_CONDITION_CONTENT": "THESE TERMS AND CONDITIONS SHALL APPLY TO AND REGULATE THE WINGPOINTS PROGRAM MADE AVAILABLE OR ISSUED BY WINGINTER TO YOU. IT IS IMPORTANT THAT YOU READ CAREFULLY AND UNDERSTAND THE FOLLOWING TERMS AND CONDITIONS BEFORE USAGE OF THE WINGPOINTS PROGRAM.\n\n1.\tDEFINITIONS\nWingpoints Program refers to loyalty program initiated by WingInter, by issuance of Wingpoints to its customers as rewards.\n\nWingpoints refers to coupons and/or discount rates issued or made available to you by WingInter.\n\nWingInter refers to WingInter Logistics Technologies Co., Ltd.\n\nWing Platform means marketplace service provided by WingInter which allows you to purchase any services/products made available by suppliers/merchants on WingInter’s or its partners’ platforms.\n\n2.\tGENERAL TERMS AND CONDITIONS\n\n\ti. You may earn Wingpoints from Wing Platforms and/or any other channels made available or authorized by WingInter only.\n\n\tii. Wingpoints shall be valid for a period of 1 years from issuance date unless otherwise specify by WingInter.\n\n\tiii. WingInter reserves the right to determine your Wingpoints usage, including but not limited to the numbers and values of the Wingpoints per day and/or per transaction at its sole discretion.\n\n\tiv. Wingpoints are redeemable for any purchase/order of selected goods and/or services, determined by WingInter and made available on the Wing Platform only, subject to specific terms and conditions of the platform.\n\n\tv. Any purchase/order that exceeds the total balance of Wingpoints, such exceeded amount shall be paid by the you respectively. WingInter reserves the right to reject your order in case of insufficient balance in your account.\n\n\tvi. Wingpoints is not Wingpointsredeemable for cash, transferable or usable in conjunction with any other coupon, discount, or voucher.\n\n\tvii. In case of cancelled purchase/order transactions, Wingpoints is refundable. WingInter will refund Wingpoints directly to your balance.\n\n\tviii. In cases cancelled purchase/order transactions, WingInter shall entitled to following actions:\n\n\t\ta.  Revoke issued Wingpoints if you has enough Wingpoints WingInterin your balance; or\n\n\t\tb. Deduct net amount from your balance, in case you does not have enough Wingpoints to refundWingpoints. The deduction of net amount from your balance counterd with Wingpoints shall be calculated by WingInter’s calculation basis.\n\n\t ix. In case of any compliant/dispute related to Wingpoints Program, you shall contact to WingInter at 078 311 311.\n\n\tx. In order to use Wingpoints, you must follow the instruction and procedures made available on Wing Platforms and/or the materials accompanying to the Wingpoints Program. Failure to do so while the order is being placed, you shall be subject to make full payment of such goods and/or services.\n\n\txi. WingInter reserves right to revoke or cancel the Wingpoints and/or Wingpoints Program at its sole discretion. Wingpoints Program shall be remained the property of WingInter.\n\n\t xii. WingInter reserves the right to amend these terms and conditions at its sole discretion, without prior notice to you. You shall periodically review the terms and conditions to get the latest update.",
+          "WING_COIN_TERM_AND_CONDITION_CONTENT": "THESE TERMS AND CONDITIONS SHALL APPLY TO AND REGULATE THE WINGPOINTS PROGRAM MADE AVAILABLE OR ISSUED BY WINGINTER TO YOU. IT IS IMPORTANT THAT YOU READ CAREFULLY AND UNDERSTAND THE FOLLOWING TERMS AND CONDITIONS BEFORE USAGE OF THE WINGPOINTS PROGRAM.\n\n1.\tDEFINITIONS\nWingpoints Program refers to loyalty program initiated by WingInter, by issuance of Wingpoints to its customers as rewards.\n\nWingpoints refers to coupons and/or discount rates issued or made available to you by WingInter.\n\nWingInter refers to WingInter Logistics Technologies Co., Ltd.\n\nWing Platform means marketplace service provided by WingInter which allows you to purchase any services/products made available by suppliers/merchants on WingInter’s or its partners’ platforms.\n\n2.\tGENERAL TERMS AND CONDITIONS\n\n\ti. You may earn Wingpoints from Wing Platforms and/or any other channels made available or authorized by WingInter only.\n\n\tii. Wingpoints shall be valid for a period of 1 years from issuance date unless otherwise specify by WingInter.\n\n\tiii. WingInter reserves the right to determine your Wingpoints usage, including but not limited to the numbers and values of the Wingpoints per day and/or per transaction at its sole discretion.\n\n\tiv. Wingpoints are redeemable for any purchase/order of selected goods and/or services, determined by WingInter and made available on the Wing Platform only, subject to specific terms and conditions of the platform.\n\n\tv. Any purchase/order that exceeds the total balance of Wingpoints, such exceeded amount shall be paid by the you respectively. WingInter reserves the right to reject your order in case of insufficient balance in your account.\n\n\tvi. Wingpoints is not Wingpointsredeemable for cash, transferable or usable in conjunction with any other coupon, discount, or voucher.\n\n\tvii. In case of cancelled purchase/order transactions, Wingpoints is refundable. WingInter will refund Wingpoints directly to your balance.\n\n\tviii. In cases cancelled purchase/order transactions, WingInter shall entitled to following actions:\n\n\t\ta. Revoke issued Wingpoints if you has enough Wingpoints WingInterin your balance; or\n\n\t\tb. Deduct net amount from your balance, in case you does not have enough Wingpoints to refundWingpoints. The deduction of net amount from your balance counterd with Wingpoints shall be calculated by WingInter’s calculation basis.\n\n\t ix. In case of any compliant/dispute related to Wingpoints Program, you shall contact to WingInter at 078 311 311.\n\n\tx. In order to use Wingpoints, you must follow the instruction and procedures made available on Wing Platforms and/or the materials accompanying to the Wingpoints Program. Failure to do so while the order is being placed, you shall be subject to make full payment of such goods and/or services.\n\n\txi. WingInter reserves right to revoke or cancel the Wingpoints and/or Wingpoints Program at its sole discretion. Wingpoints Program shall be remained the property of WingInter.\n\n\t xii. WingInter reserves the right to amend these terms and conditions at its sole discretion, without prior notice to you. You shall periodically review the terms and conditions to get the latest update.",
           "SAVE_CASH_USE_WINGCOIN": "Save Cash. Use Wingpoints",
           "DO_YOU_WANT_TO_PAY_WITH_WINGCOIN": "Do you want to pay for this order with Wingpoints instead of cash?"
         },
@@ -3751,7 +3788,10 @@
         "PM": "中午",
         "USE_NOW": "USE NOW",
         "NEVER_EXPIRE": "Never Expires",
-        "FREE": "免费"
+        "FREE": "免费",
+        "CONFIRMATION": "确认",
+        "CONFIRMATION_DESCRIPTION": "您确定要继续此操作吗？",
+        "CONFIRMATION_DESCRIPTION_DELETE": "您确实要删除这些项目吗？"
       },
       "REGIONS": {
         "KEP": "Kep",
@@ -3876,14 +3916,6 @@
       "PROMO_CODE_MODAL": {
         "PROMO_CODE_TERM_AND_CONDITION": "Term and Condition"
       },
-      "SERVICE_SCREEN": {
-        "CANNOT_FIND_YOUR_FAVORITE_STORE": "找不到您最喜欢的商店？现在就申请。",
-        "REQUEST": "要求",
-        "NO_STORE_AVAILABLE": "没有可用的商店",
-        "NO_STORE_AVAILABLE_DESC": "目前没有商店可显示您",
-        "ALL_STORES": "所有门店",
-        "PROMOTIONS": "促销"
-      },
       "WING_POINTS": {
         "WING_POINTS_BREAKDOWN": "Wingpoints 分解",
         "ORDER_REWARD": "订单奖励",
@@ -3898,6 +3930,14 @@
         "CANNOT_REDEEM_WITH_WING_POINTS": "此促銷代碼不適用於 Wingpoints，您想繼續嗎？",
         "NOT_ELIGIBLE_WITH_PROMO_CODE": "不符合使用此促銷代碼的資格",
         "NOT_ELIGIBLE": "不容忽視"
+      },
+      "SERVICE_SCREEN": {
+        "CANNOT_FIND_YOUR_FAVORITE_STORE": "找不到您最喜欢的商店？现在就申请。",
+        "REQUEST": "要求",
+        "NO_STORE_AVAILABLE": "没有可用的商店",
+        "NO_STORE_AVAILABLE_DESC": "目前没有商店可显示您",
+        "ALL_STORES": "所有门店",
+        "PROMOTIONS": "促销"
       }
     },
     "MOVIE": {
@@ -3959,12 +3999,13 @@
         "PROMO_CODE": "促销代码",
         "APPLY_PROMO_CODE": "应用促销代码",
         "GIFT_CARD": "礼品卡",
-        "AVAILABLE_OFFERS": "可用优惠"
-      },
-      "COMMON": {
-        "BTN": {
-          "CLOSE": "关"
-        }
+        "AVAILABLE_OFFERS": "可用优惠",
+        "PLEASE_WAIT_UNTIL_CHECKOUT_PROGRESS_COMPLETED": "请等待直到结帐进度完成。",
+        "WING_POINT": "翼币",
+        "NOTICED": "注意到",
+        "CANNOT_REDEEM_WITH_WING_POINTS": "此促銷代碼不適用於 Wingpoints，您想繼續嗎？",
+        "NOT_ELIGIBLE_WITH_PROMO_CODE": "不符合使用此促銷代碼的資格",
+        "NOT_ELIGIBLE": "不容忽視"
       },
       "MY_TICKET": {
         "TITLE": "我的票",
@@ -3973,7 +4014,14 @@
         "GET_YOUR_POPCORN_READY": "立即获取爆米花",
         "ORDER_NOW": "现在下单",
         "SHOW_QR": "显示QR码",
-        "SCAN_QR_CODE_AT_THE_TICKET_COUNTER_OR_KIOSK_MACHINE": "在售票处或KIOSK机上扫描QR码"
+        "SCAN_QR_CODE_AT_THE_TICKET_COUNTER_OR_KIOSK_MACHINE": "在售票处或KIOSK机上扫描QR码",
+        "EARNING_WING_POINTS": "获得 +{{point}}} 点",
+        "WINGPOINTS_HAS_BEEN_TRANSFERRED": "翼币已转移。"
+      },
+      "COMMON": {
+        "BTN": {
+          "CLOSE": "关"
+        }
       },
       "MOVIE_TICKETS": {
         "EMPTY_ORDER": "没有找到预订",
@@ -3990,6 +4038,7 @@
       "require_location_desc": "វាជួយយើងក្នុងការបញ្ជូនទៅកាន់អាសយដ្ឋានរបស់អ្នកបានត្រឹមត្រូវ និងលឿនជាងមុន",
       "enable_location": "បើកទីតាំង",
       "detect_location": "រកមើលទីតាំង",
+      "enter_location_manually": "បញ្ចូលទីតាំងដោយផ្ទាល់",
       "no_internet_connection": "គ្មានការតភ្ជាប់អ៊ីនធឺណិត!",
       "ooops": "Ooops!",
       "slow_or_no_internet_connection": "អ៊ីនធឺណិតដើរយឺត ឬគ្មានការតភ្ជាប់ ពេលខ្លះអង្រួនឧបករណ៍របស់អ្នកអាចជួយបាន។",
@@ -4002,6 +4051,7 @@
       "show_traffic": "បង្ហាញចរាចរណ៍",
       "hide_traffic": "បិទបង្ហាញចរាចរណ៍",
       "please_check_your_phone_number": "សូមពិនិត្យមើលលេខទូរស័ព្ទរបស់អ្នក លេខកូដ OTP នឹងត្រូវបានផ្ញើតាម SMS តាមរយៈលេខ \n\n{{phone}}",
+      "please_check_your_email": "សូមពិនិត្យមើលអ៊ីមែលរបស់អ្នក OTP នឹងត្រូវបានផ្ញើតាមអ៊ីមែល \n\n{{email}}",
       "add_your_favorite_now": "បន្ថែមហាងដែលអ្នកចូលចិត្តឥឡូវនេះ",
       "cannot_find_your_favorite_store": "មិនអាចស្វែងរកហាងដែលអ្នកចូលចិត្តបានទេ? ស្នើសុំវាឥឡូវនេះ។",
       "what_went_wrong": "តើមានអ្វីខុស? តើ​យើង​អាច​ធ្វើ​ឱ្យ​ប្រសើរជាង​នេះ​ដោយ​របៀប​ណា?",
@@ -4060,7 +4110,7 @@
       "reward": "រង្វាន់",
       "gift_card": "កាតអំណោយ",
       "promotion": "បញ្ចុះតម្លៃ",
-      "movie": "ភាពយន្ត",
+      "movie": "សំបុត្រភាពយន្ត",
       "explore": "ទំព័រដើម",
       "promo": "ប្រូម៉ូសិន",
       "order": "កម្មង់",
@@ -4124,7 +4174,6 @@
       "boarding_email_placeholder": "Enter your email",
       "boarding_email_invalid": "Invalid email",
       "profile_view_account_label": "មើលគណនី",
-      "profile_security": "សុវត្ថិភាពគណនី",
       "profile_log_out_label": "ចាកចេញ",
       "profile_language_label": "ភាសា",
       "profile_card_payment_label": "កាត",
@@ -4155,12 +4204,14 @@
       "security": "សុវត្ថិភាពគណនី",
       "profile_card_detail_label": "ពត៌មានលម្អិតរបស់កាត",
       "profile_add_card_label": "បន្ថែមកាត",
+      "profile_security": "សុវត្ថិភាពគណនី",
       "profile_password_not_match": "ពាក្យសម្ងាត់បញ្ជាក់មិនត្រូវគ្នានឹងពាក្យសម្ងាត់ដែលបានបញ្ចូលទេ។",
       "my_inbox_title": "ប្រអប់សាររបស់ខ្ញុំ",
       "my_inbox_order_now_label": "កម្មង់ឥឡូវនេះ",
       "something_went_wrong_update_inboxes": "Something went wrong while updating inboxes",
       "read_all": "អានទាំងអស់គ្នា",
       "clear_messages": "លុបចោលសារ",
+      "terms_policies": "គោលការណ៍ និងលក្ខខណ្ឌ",
       "my_order_title": "ការកម្មង់​របស់​ខ្ញុំ",
       "my_order_recent_orders_label": "ការកម្មង់ថ្មីៗ",
       "my_order_recent_orders_desc": "ចុចទីនេះដើម្បីមើលការកម្មង់ថ្មីៗរបស់អ្នក។",
@@ -4237,12 +4288,12 @@
       "bank_account_options": "ជម្រើសគណនីធនាគារ",
       "settlement_account_name": "ឈ្មោះគណនី {{bankName}}",
       "settlement_account_number": "លេខគណនី {{bankName}}",
-      "fill_receiver_info": "បំពេញព័ត៌មានអ្នកទទួល",
       "add_another_receiver": "បន្ថែមអ្នកទទួលផ្សេងទៀត។",
       "express_cash_on_delivery": "បង់ប្រាក់ពេលដឹកជញ្ជូនទំនិញទៅដល់",
       "save_and_add_receiver": "រក្សាទុក និងបន្ថែមថ្មី",
       "remove_confirmation": "តើអ្នកប្រាកដថាចង់លុបអ្នកទទួលនេះទេ?",
       "cod_exceed_description": "ចំណាំ៖ សាច់ប្រាក់អតិបរមាដែលយើងអាចប្រមូលបានក្នុងមួយសំណើគឺស្មើនឹង ${{amount}}",
+      "fill_receiver_info": "បំពេញព័ត៌មានអ្នកទទួល",
       "calculate_delivery_fee_error_alert": "មានអ្វីមួយខុសប្រក្រតី ខណៈពេលកំពុងគណនាថ្លៃដឹកជញ្ជូន។ សូមព្យាយាមម្តងទៀត នៅបន្តិចទៀត។",
       "express_unavailable_service_alert": "ជាអកុសល យើងមិនអាចស្វែងរកអ្នកជិះនៅទីតាំងមកយកបច្ចុប្បន្នរបស់អ្នកបានទេ។ ប្រសិនបើអ្នកមានគម្រោងស្នើសុំអ្នកផ្សេង អ្នកអាចធ្វើការផ្លាស់ប្តូរទីតាំងអ្នកផ្ញើបាន។",
       "collect_payment_description": "សាច់ប្រាក់ដែលប្រមូលបាននឹងត្រូវប្រគល់ជូនធនាគារ {{bankname}} របស់អ្នកវិញជាមួយនឹងការបង់ប្រាក់នៅពេលដឹកជញ្ជូនទំនិញទៅដល់។",
@@ -4330,7 +4381,6 @@
       "no_purchase_available": "មិនមានការទិញទេ",
       "you_have_not_made_any_purchase_yet": "អ្នកមិនទាន់បានធ្វើការទិញណាមួយនៅឡើយទេ",
       "invalid_amount_only_number": "ចំនួនទឹកប្រាក់មិនត្រឹមត្រូវ, មានតែលេខប៉ុណ្ណោះដែលត្រូវបានអនុញ្ញាត។",
-      "error_description": "មានអ្វីមួយខុសប្រក្រតី ខណៈពេលកំពុងទិញកាតអំណោយរបស់អ្នក សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។",
       "invalid_amount": "មិនត្រឹមត្រូវ ចំនួនទឹកប្រាក់ត្រូវតែធំជាង 0",
       "why_gift_card": "ហេតុអ្វីបានត្រូវការកាតអំណោយ?",
       "now_you_can_spread_your_love_to_everyone_at_anytime": "ឥឡូវនេះ អ្នកអាចចែករំលែកក្តីស្រឡាញ់របស់អ្នកទៅកាន់នរណាម្នាក់បានគ្រប់ពេលវេលា។",
@@ -4340,6 +4390,7 @@
       "gift_card_step_2_desc": "អ្នកអាចបង្ហាញសេចក្ដីស្រឡាញ់របស់អ្នកជាមួយនឹងសារឌីជីថលបាន",
       "gift_card_step_3_title": "រីករាយជាមួយកាតអំណោយ",
       "gift_card_step_3_desc": "ទិញជាមួយកាតអំណោយ ហើយរីករាយជាមួយពេលវេលានេះ",
+      "error_description": "មានអ្វីមួយខុសប្រក្រតី ខណៈពេលកំពុងទិញកាតអំណោយរបស់អ្នក សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។",
       "jan": "មករា",
       "feb": "កុម្ភះ",
       "mar": "មិនា",
@@ -4383,10 +4434,10 @@
       "order_now_with_your_redeemed": "កម្មង់ឥឡូវនេះជាមួយនឹងរង្វាន់ដែលអ្នកបានប្តូរយក",
       "search_discount_store": "ហាងបញ្ចុះតម្លៃ | លេខកូដបញ្ចុះតម្លៃ",
       "share_promo_code": "ចែករំលែកលេខកូដ",
-      "copy_promo_code": "ចម្លងកូដ",
-      "store_promotion": "ប្រូម៉ូសិនរបស់ហាង",
       "share_promo_code_msg": "ហេ Wingmall កំពុងផ្តល់ជូនការប្រូម៉ូសិន។ ប្រើលេខកូដ {{code}} ដើម្បីទទួលបានការបញ្ចុះតម្លៃភ្លាមៗ",
       "share_discount_merchant": "ហេ Wingmall កំពុងផ្តល់ជូនការប្រូម៉ូសិន។ ទទួលបានការបញ្ចុះតម្លៃ {{percent}}% ពី {{merchantName}}",
+      "copy_promo_code": "ចម្លងកូដ",
+      "store_promotion": "ប្រូម៉ូសិនរបស់ហាង",
       "terms_conditions": "លក្ខខណ្ឌ",
       "promotions": "ប្រូម៉ូសិន",
       "filter_voucher": "ច្រោះយកប័ណ្ណចំណាយ",
@@ -4459,8 +4510,8 @@
       "share_friend": "សួស្ដី! អ្នកមិនគួរខកខានការផ្តល់ជូនពិសេសនេះទេ",
       "description_share_friend": "សួស្ដី! អ្នកមិនគួរខកខានការផ្តល់ជូនពិសេសនេះទេ \nខ្ញុំបានទទួលទឹកប្រាក់ ${{amount}} ត្រលប់មកវិញ លើការបញ្ជាទិញពីហាង {{merchantName}}។ ទទួលបានរបស់អ្នកឥឡូវនេះ៖ {{linkToStore}}",
       "cashback_not_available": "Not available for your nearest branch {{merchantName}}",
-      "wing_coin": "វីងភ័ញ",
-      "coin": "វីងភ័ញ",
+      "wing_coin": "Wingpoints",
+      "coin": "Wingpoints",
       "coin_plural": "Coins",
       "wing_mall": "Wingmall",
       "exp": "ផុតកំណត់",
@@ -4515,7 +4566,6 @@
       "description_success_reporting": "អរគុណចំពោះការរាយការណ៍បញ្ហារបស់អ្នក, ការរួមចំណែករបស់អ្នកគឺមានតម្លៃ។",
       "attachment": "ឯកសារភ្ជាប់",
       "terms_privacy": "លក្ខខណ្ឌនៃសេវាកម្ម និងគោលការណ៍ឯកជនភាព",
-      "terms_policies": "គោលការណ៍ និងលក្ខខណ្ឌ",
       "home_screen_discover": "ស្វែងរក",
       "home_screen_recent_orders": "ការកម្មង់ថ្មីៗ",
       "home_screen_recent_merchants": "ហាងថ្មី",
@@ -4578,6 +4628,7 @@
       "preparation_time": "ពេលវេលារៀបចំ",
       "estimation_time": "ពេលវេលាប៉ាន់ស្មាន",
       "preparation_minute": "នាទី",
+      "minute": "នាទី",
       "menu": "ម៉ឺនុយ",
       "all_menu": "ម៉ឺនុយទាំងអស់",
       "see_all_menu": "មើលទាំងអស់",
@@ -4602,6 +4653,7 @@
       "add_to_cart": "បញ្ចូលទៅក្នុងកន្ត្រកទំនិញ",
       "save_these_changes": "រក្សាទុកការផ្លាស់ប្តូរទាំងនេះទៅក្នុងកន្ត្រកទំនិញរបស់អ្នក?",
       "discard": "លុបចោល",
+      "please_select_options": "សូមជ្រើសរើសជម្រើស",
       "add_your_special_note_here": "បន្ថែមកំណត់ចំណាំពិសេសរបស់អ្នកនៅទីនេះ...",
       "block_order_back": "ត្រឡប់វិញ",
       "driver_busy": "អ្នកបើកបរមិនទំនេរទេនាពេលបច្ចុប្បន្ន។",
@@ -4659,7 +4711,9 @@
       "oops_out_of_region_description": "យើងព្យាយាមពង្រីកសេវាកម្មរបស់យើងទៅកាន់ទីតាំងរបស់អ្នកក្នុងពេលឆាប់ៗនេះ",
       "out_of_zone_short_text": "ក្រៅពីតំបន់សេវាកម្ម",
       "out_of_zone_long_text": "យើងបានរកឃើញថាតំបន់របស់អ្នកមិនស្ថិតនៅក្នុងសេវាកម្មដែលមានរបស់យើងទេ យើងព្យាយាមពង្រីកសេវាកម្មរបស់យើងទៅកាន់តំបន់របស់អ្នកក្នុងពេលឆាប់ៗនេះ",
-      "continue": "បន្ត",
+      "searching_location": "កំពុងរកទីតាំងរបស់អ្នក",
+      "please_allow_permission": "ចុចទីនេះដើម្បីបើកទីតាំងឧបករណ៍សម្រាប់អាសយដ្ឋានដឹកជញ្ជូនត្រឹមត្រូវ និងការដឹកជញ្ជូនលឿនជាងមុន។",
+      "continue": "បន្តទៅមុខ",
       "your_delivery_location": "ទីតាំងដឹកជញ្ជូនរបស់អ្នក",
       "current_order": "ការកម្មង់បច្ចុប្បន្ន",
       "order_history": "​ប្រវត្តិ​នៃការកម្មង់",
@@ -4772,7 +4826,6 @@
       "ante_meridiem": "ព្រឹក",
       "post_meridiem": "ពេលថ្ងៃ",
       "hour": "ម៉ោង",
-      "minute": "នាទី",
       "meridiem": "មេរីឌីម",
       "payment_cash": "សាច់ប្រាក់",
       "code_label": "លេខកូដ៖",
@@ -4896,6 +4949,7 @@
       "reward_get_start": "ចាប់ផ្តើម",
       "location_delivery_to": "ដឹកជញ្ជូនទៅកាន់",
       "location_current_location": "ទីតាំង​បច្ចុប្បន្ន",
+      "location_use_my_current_location": "ប្រើទីតាំង​បច្ចុប្បន្នរបស់ខ្ញុំ",
       "location_save_location": "ទីតាំងដែលបានរក្សាទុក",
       "location_search_location": "ស្វែងរកទីតាំង",
       "location_home": "ទំព័រដើម",
@@ -4941,6 +4995,9 @@
       "disable_scheduled_order": "យើងកំពុងបិទការកម្មង់ដែលបានកំណត់ពេលជាបណ្តោះអាសន្ន។",
       "pay_now": "បង់ឥឡូវនេះ",
       "tap_to_change": "ចុចដើម្បីផ្លាស់ប្តូរ",
+      "pick_up_change_to_asap": "Are you sure that you want to change to pick-up ASAP",
+      "service_unavailable_message": "យើងខ្ញុំសូមអភ័យទោសចំពោះដែលមិនអាចដឹកជញ្ជូនទៅកាន់ទីតាំងបច្ចុប្បន្នរបស់អ្នកបាន ដោយសារការរឹតបន្តឹងរបស់រដ្ឋាភិបាលនៅក្នុងតំបន់របស់អ្នក។ ",
+      "reminder_to_order": "{{merchantName}} ត្រៀមរួចជាស្រេចដើម្បីបម្រើសេវាដល់អ្នក សូមធ្វើការកម្ម៉ង់ឥឡូវនេះ!",
       "change_pick_up_time": "ប្តូរពេលវេលាទៅយកផ្ទាល់",
       "set_delivery_time": "កំណត់ពេលវេលាដឹកជញ្ជូន",
       "set_pick_up_time": "កំណត់ពេលវេលាទៅយកផ្ទាល់",
@@ -4948,9 +5005,6 @@
       "pick_up_checkout": "ទៅយកផ្ទាល់នៅ {{time}}",
       "get_direction": "ទទួលទិសដៅ",
       "pick_up_your_self": "ទៅយកផ្ទាល់ដោយខ្លួនឯង",
-      "pick_up_change_to_asap": "Are you sure that you want to change to pick-up ASAP",
-      "service_unavailable_message": "យើងខ្ញុំសូមអភ័យទោសចំពោះដែលមិនអាចដឹកជញ្ជូនទៅកាន់ទីតាំងបច្ចុប្បន្នរបស់អ្នកបាន ដោយសារការរឹតបន្តឹងរបស់រដ្ឋាភិបាលនៅក្នុងតំបន់របស់អ្នក។ ",
-      "reminder_to_order": "{{merchantName}} ត្រៀមរួចជាស្រេចដើម្បីបម្រើសេវាដល់អ្នក សូមធ្វើការកម្ម៉ង់ឥឡូវនេះ!",
       "pick_up_description": "ទៅយកផ្ទាល់ដោយខ្លួនឯងនៅហាង",
       "subcategory_headline": "កម្មង់អាហារដែលអ្នកចូលចិត្ត",
       "search_store_or_dishes": "ស្វែងរកហាង ឬមុខម្ហូប",
@@ -5054,8 +5108,8 @@
       "firebase_auth": "ឧបករណ៍នេះមិនគាំទ្រសេវាកម្មផ្ទៀងផ្ទាត់របស់យើងទេ។",
       "internal_error": "កំពុងមានបញ្ហាបច្ចេកទេស សូមព្យាយាមម្តងទៀត។",
       "popup_closed_by_user": "អន្តរកម្មត្រូវបានលុបចោលដោយអ្នកប្រើប្រាស់។",
-      "network_request_failed": "Network មិនប្រក្រតី (ដូចជាអស់ពេល ការតភ្ជាប់ដែលរំខាន ឬម៉ាស៊ីនដែលមិនអាចទៅដល់បាន) បានកើតឡើង។",
       "invalid_phone_number": "លេខទូរស័ព្ទមិនត្រឹមត្រូវ។ សូមបញ្ចូលលេខដែលត្រឹមត្រូវទៅនិងប្រទេសរបស់អ្នក",
+      "network_request_failed": "Network មិនប្រក្រតី (ដូចជាអស់ពេល ការតភ្ជាប់ដែលរំខាន ឬម៉ាស៊ីនដែលមិនអាចទៅដល់បាន) បានកើតឡើង។",
       "invalid_verification_code": "លេខកូដផ្ទៀងផ្ទាត់ sms ដែលប្រើដើម្បីបង្កើតព័ត៌មានបញ្ជាក់អត្តសញ្ញាណទូរស័ព្ទមិនត្រឹមត្រូវទេ។ សូមផ្ញើ sms លេខកូដផ្ទៀងផ្ទាត់ឡើងវិញ ហើយត្រូវប្រាកដថាប្រើលេខកូដផ្ទៀងផ្ទាត់ដែលផ្តល់ដោយអ្នកប្រើប្រាស់។",
       "rating_dialog_placeholder": "តើមានអ្វីខុស? តើ​យើង​អាច​ធ្វើ​បាន​ល្អ​ជាង​នេះ​ដោយ​របៀប​ណា?",
       "key_in_your_age": "សូមបញ្ចូលអាយុរបស់អ្នក",
@@ -5090,12 +5144,12 @@
       "redemption_failed": "ការប្តូរយកអំណោយបានបរាជ័យ",
       "driver_not_found_please_try_again": "មិនទាន់មានអ្នកដឹកជញ្ជូន។ សូមព្យាយាមសាកល្បងម្តងទៀត",
       "error_something_while_finding_driver": "មានបញ្ហាមិនប្រក្រតីនៅពេលកំពុងស្វែងរកអ្នកដឹកជញ្ជូន",
-      "no_menu_available": "មិនមានមុឺនុយ",
-      "no_menu_available_desc": "មិនមានមុីនុយក្នុងការបង្ហាញអ្នកទេ ឥឡូវនេះ",
       "order_only": "ចំណាយត្រឹមតែ",
-      "on_this_order": "ក្នុងការកុម៉្មង់នេះ!",
       "you_just_saved": "អ្នកបានសន្សំ",
+      "on_this_order": "ក្នុងការកុម៉្មង់នេះ!",
+      "no_menu_available": "មិនមានមុឺនុយ",
       "more_to_get_this_offer": "ថែមទៀតនិងទទួលបានការផ្តល់ជូននេះ",
+      "no_menu_available_desc": "មិនមានមុីនុយក្នុងការបង្ហាញអ្នកទេ ឥឡូវនេះ",
       "something_went_wrong_saving_draft": "មានបញ្ហាខណះពេលកំពុងរក្សាទុកការកុម្មង់។ សូមព្យាយាមម្តងទៀត",
       "wing_account_not_match": "{{accountName}} និង {{accountNumber}} មិនត្រឹមត្រូវ",
       "account_exist": "គណនីមានរួចហើយ!",
@@ -5125,7 +5179,8 @@
       "modal_social_disconnect_info": "អ្នកអាចភ្ជាប់ឡើងវិញគ្រប់ពេល",
       "social_already_connected": "បណ្តាញសង្គមនេះបានភ្ជាប់ជាមួយគណនីដទៃ",
       "phone_already_connected_label": "លេខទូរស័ព្ទបានប្រើប្រាស់រួច",
-      "phone_already_connected_description": "លេខទូរស័ព្ទបានភ្ជាប់រួចរាល់ សូមប្រើលេខទូរស័ព្ទផ្សេង"
+      "phone_already_connected_description": "លេខទូរស័ព្ទបានភ្ជាប់រួចរាល់ សូមប្រើលេខទូរស័ព្ទផ្សេង",
+      "unstable_internet_connection": "អ៊ីនធឺណិតរបស់អ្នកមិនមានស្ថេរភាពនោះទេ។"
     },
     "SHOPPING": {
       "HOME_SCREEN": {
@@ -5147,7 +5202,6 @@
         "VIEW_ALL": "ទាំងអស់",
         "YOUR_BEST_PICK": "ជម្រើសរបស់អ្នក",
         "SEE_ALL": "មើលទាំងអស់",
-        "ALL_CATEGORY": "មើលទាំងអស់",
         "KID": "កុមារ",
         "JEWELRY": "គ្រឿងអលង្ការ",
         "HOME": "ទំព័រដើម",
@@ -5282,8 +5336,8 @@
         "SUB_TOTAL": "សរុប",
         "PROMO_CODE_DISCOUNT": "កូដបញ្ចុះតម្លៃ",
         "DISCOUNT": "បញ្ចុះតម្លៃ",
-        "SHIPPING_FEE": "តម្លៃដឹកជញ្ជូន",
         "DELIVERY_FEE": "ថ្លៃដឹក",
+        "SHIPPING_FEE": "តម្លៃដឹកជញ្ជូន",
         "GRAND_TOTAL": "សរុបរួម",
         "PAY_SECURELY_WITH_WING_PAY": "បង់ថ្លៃយ៉ាងមានសុវត្ថិភាពដោយ WingPay",
         "TAB_TO_PAY_WITH_ACLEDA": "ចុចដើម្បីទូទាត់ជាមួយ អេស៊ីលីដា",
@@ -5417,7 +5471,11 @@
         "DESCRIPTION_MIN_MAX": "តិចបំផុត: ${{min}} ច្រើនបំផុត: ${{max}}",
         "NO_TIP": "គ្មានធីប",
         "PLACEHOLDER_TIP": "ឧទាហរណ៍: $5",
-        "TAP_TO_CHANGE": "ចុចដើម្បីផ្លាស់ប្តូរ"
+        "TAP_TO_CHANGE": "ចុចដើម្បីផ្លាស់ប្តូរ",
+        "WARNING_LOCATION_CHANGE": "អ្នកបានផ្លាស់ប្តូរទីតាំង; បន្ថែមទំនិញដើម្បីទទួលបានការដឹកជញ្ជូនដោយឥតគិតថ្លៃ។",
+        "DELIVERY_OFFER_BY_ORDER": "ចំណាយ ${{minOrder}}, ទទួលបាន ${{discountOffer}} ការបញ្ចុះតម្លៃដឹកជញ្ជូន",
+        "CONGRATS_DELIVERY_OFFER": "អបអរសាទរ! អ្នកទទួលបាន ${{discountOffer}} ការបញ្ចុះតម្លៃដឹកជញ្ជូន",
+        "GET_DELIVERY_OFFER": "បន្ថែម, ទទួលបាន ${{discountOffer}} ការបញ្ចុះតម្លៃដឹកជញ្ជូន"
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "ការកម្មង់របស់ខ្ញុំ",
@@ -5461,8 +5519,8 @@
         "YOUR_ORDER_SHIPPED_NOW": "ការកម្ម៉ង់របស់អ្នកត្រូវបានដឹក",
         "YOUR_ORDER_IS_READY_FOR_PICKUP": "ការកម្មង់របស់អ្នកគឺរួចរាល់សម្រាប់ទទួលយក",
         "ESTIMATED_TIME_ARRIVAL": "អាចនិងមកដល់",
-        "ETA": "អាចទៅដល់",
         "ESTIMATED_ARRIVAL": "អាចទៅដល់",
+        "ETA": "អាចទៅដល់",
         "FEED_ME": "ចិញ្ចឹមខ្ញុំ",
         "YOU_HAVE_NO_ORDER_HISTORY": "អ្នកមិនមានប្រវត្តិនៃការកម្មង់ទេ",
         "ORDER_FILTER": "តម្រងការកម្មង់",
@@ -5551,7 +5609,7 @@
         "CONGRATS_YOU_ARE_GETTING_COIN": "អបអរសាទរ អ្នកបានទទួលបាន +{{amount}}"
       },
       "DELIVERY_ADDRESS": {
-        "DELIVERY_ADDRESS": "អាសយដ្ឋានដឹកជញ្ជូន",
+        "DELIVERY_ADDRESS": "អាស័យ​ដ្ឋានដឹកជញ្ជូន",
         "DELIVERY_LOCATION_LABEL": "ស្លាកទីតាំងដឹកជញ្ជូន",
         "ADDRESS_BOOK": "សៀវភៅ​អាស័យ​ដ្ឋាន",
         "DELIVERY_INFO": "ព័ត៌មានដឹកជញ្ជូន",
@@ -5612,15 +5670,18 @@
         "FAILED_TO_ADD_NEW_ADDRESS": "បរាជ័យក្នុងការបន្ថែមអាស័យដ្ខានថ្មី",
         "FAILED_TO_UPDATE_ADDRESS": "បរាជ័យក្នុងការកែប្រែអាស័យដ្ខាន",
         "FAILED_TO_DELETE_ADDRESS": "បរាជ័យក្នុងការលុបអាស័យដ្ខាន",
-        "HOUSE_APARTMENT_STREET_NUMBER_PLACEHOLDER": "ឧ.​​ផ្ទះលេខ​12 AO, ផ្លូវ​34",
-        "DELIVERY_NOTE_PLACEHOLDER": "ឧ.សូមដាក់រៀនហាលខាងមុខ"
+        "HOUSE_APARTMENT_STREET_NUMBER_PLACEHOLDER": "ឧ.ផ្ទះលេខ12 AO, ផ្លូវ34",
+        "DELIVERY_NOTE_PLACEHOLDER": "ឧ.សូមដាក់រៀនហាលខាងមុខ",
+        "CONFIRM_ADDRESS_DESCRIPTION": "សូមជ្រើសរើស ឬបន្ថែមអាសយដ្ឋានដឹកជញ្ជូន ដើម្បីបន្តការបញ្ជាទិញ",
+        "GO_TO_ADDRESS_BOOK": "ចូលទៅកាន់សៀវភៅអាស័យដ្ឋាន",
+        "LOCATION_IS_REQUIRED": "សូមដាក់ទីតាំងដឹកជញ្ជូន"
       },
       "CATEGORY_SCREEN": {
         "CATEGORY": "ប្រភេទ",
         "CATEGORY_plural": "ប្រភេទ",
-        "CONSUMER_ELECTRONIC_ARE_THE_MOST_POPULAR_OF_USERS": "Consumer electronic are the most popular of users",
         "CATEGORY_YOU_INTERESTED_IN": "ប្រភេទដែលអ្នកចាប់អារម្មណ៍",
         "PERSONALIZE_YOUR_BEST_PICKS": "កំណត់ជម្រើសដែលអ្នកត្រូវការ",
+        "CONSUMER_ELECTRONIC_ARE_THE_MOST_POPULAR_OF_USERS": "Consumer electronic are the most popular of users",
         "ELECTRONICS": "គ្រឿងអគ្គិសនី",
         "FASHIONS": "ម៉ូត",
         "BEAUTY": "សម្រស់",
@@ -5679,6 +5740,7 @@
         "CLOSE": "បិទ",
         "ERROR": "មិនត្រឹមត្រូវ",
         "SELECT_PERSONALIZE": "អ្នកទិញជូនអ្នកណា?",
+        "SEARCH_NOT_FOUND": "រកមិនឃើញទេ",
         "SEE_MORE": "មើល​បន្ថែម",
         "SEE_LESS": "មើលមុន",
         "OVERVIEW": "ទិដ្ឋភាពទូទៅ",
@@ -5694,8 +5756,8 @@
         "DO_YOU_WANT_TO_DELETE_THIS_MESSAGE": "តើអ្នកចង់លុបសារនេះមែនទេ?",
         "ACCOUNT_REQUIRED": "ទាមទារគណនី",
         "PLEASE_SIGN_UP_OR_SIGN_IN": "សូមចុះឈ្មោះ ឬចូលគណនីរបស់អ្នក ដើម្បីដំណើរការជំហានបន្ថែម និងស្វែងយល់បន្ថែម",
-        "MARK_AS_READ": "កំណត់ថាបានអាន",
         "SIGN_UP_OR_SIGN_IN": "ចុះឈ្មោះឬចូល",
+        "MARK_AS_READ": "កំណត់ថាបានអាន",
         "GET_STARTED": "ចាប់ផ្តើម",
         "ENTER_PHONE_NUMER": "បញ្ចូលលេខទូរស័ព្ទ",
         "FILTER": "ត្រង",
@@ -5743,7 +5805,10 @@
         "PM": "ពេលថ្ងៃ",
         "USE_NOW": "ប្រើប្រាស់",
         "NEVER_EXPIRE": "គ្មានកាលកំណត់",
-        "FREE": "ឥតគិតថ្លៃ"
+        "FREE": "ឥតគិតថ្លៃ",
+        "CONFIRMATION": "បញ្ជាក់",
+        "CONFIRMATION_DESCRIPTION": "តើអ្នកប្រាកដថាចង់បន្តសកម្មភាពនេះទេ?",
+        "CONFIRMATION_DESCRIPTION_DELETE": "តើអ្នកប្រាកដថាចង់លុបការជូនដំណឹងទាំងនោះមែនទេ?"
       },
       "REGIONS": {
         "KEP": "កែប",
@@ -5868,14 +5933,6 @@
       "PROMO_CODE_MODAL": {
         "PROMO_CODE_TERM_AND_CONDITION": "Term and Condition"
       },
-      "SERVICE_SCREEN": {
-        "CANNOT_FIND_YOUR_FAVORITE_STORE": "មិនអាចស្វែងរកហាងដែលអ្នកចូលចិត្តបានទេ? ស្នើសុំវាឥឡូវនេះ។",
-        "REQUEST": "ស្នើរសុំ",
-        "NO_STORE_AVAILABLE": "មិនមានហាងទេ",
-        "NO_STORE_AVAILABLE_DESC": "មិនមានហាងសម្រាប់បង្ហាញអ្នកនៅពេលនេះទេ",
-        "ALL_STORES": "ហាងទាំងអស់",
-        "PROMOTIONS": "ប្រូម៉ូសិន"
-      },
       "WING_POINTS": {
         "WING_POINTS_BREAKDOWN": "លំអិតរបស់វីងភ័ញ",
         "ORDER_REWARD": "រង្វាន់ដែលទទួលបានពីការកម៉្មង់",
@@ -5890,6 +5947,14 @@
         "CANNOT_REDEEM_WITH_WING_POINTS": "កូដបញ្ចុះតម្លៃនេះមិនអនុញ្ញាតប្រើជាមួយវីងភ័ញ ទេ តើអ្នកចង់បន្តទេ?",
         "NOT_ELIGIBLE_WITH_PROMO_CODE": "មិនអនុញ្ញាតប្រើជាមួយកូដបញ្ចុះតម្លៃ",
         "NOT_ELIGIBLE": "មិនអនុញ្ញាត"
+      },
+      "SERVICE_SCREEN": {
+        "CANNOT_FIND_YOUR_FAVORITE_STORE": "មិនអាចស្វែងរកហាងដែលអ្នកចូលចិត្តបានទេ? ស្នើសុំវាឥឡូវនេះ។",
+        "REQUEST": "ស្នើរសុំ",
+        "NO_STORE_AVAILABLE": "មិនមានហាងទេ",
+        "NO_STORE_AVAILABLE_DESC": "មិនមានហាងសម្រាប់បង្ហាញអ្នកនៅពេលនេះទេ",
+        "ALL_STORES": "ហាងទាំងអស់",
+        "PROMOTIONS": "ប្រូម៉ូសិន"
       }
     },
     "MOVIE": {
@@ -5951,12 +6016,13 @@
         "PROMO_CODE": "កូដបញ្ចុះតម្លៃ",
         "APPLY_PROMO_CODE": "ដាក់កូដបញ្ចុះតម្លៃ",
         "GIFT_CARD": "កាតអំណោយ",
-        "AVAILABLE_OFFERS": "ការផ្តល់អោយដែលមាន"
-      },
-      "COMMON": {
-        "BTN": {
-          "CLOSE": "បិទ"
-        }
+        "AVAILABLE_OFFERS": "ការផ្តល់អោយដែលមាន",
+        "PLEASE_WAIT_UNTIL_CHECKOUT_PROGRESS_COMPLETED": "សូមរង់ចាំរហូតដល់ការបញ្ជារទិញបានបញ្ចប់។",
+        "WING_POINT": "វីងភ័ញ",
+        "NOTICED": "បានកត់សម្គាល់",
+        "CANNOT_REDEEM_WITH_WING_POINTS": "កូដបញ្ចុះតម្លៃនេះមិនអនុញ្ញាតប្រើជាមួយ Wingpoints ទេ តើអ្នកចង់បន្តទេ?",
+        "NOT_ELIGIBLE_WITH_PROMO_CODE": "មិនអនុញ្ញាតប្រើជាមួយកូដបញ្ចុះតម្លៃ",
+        "NOT_ELIGIBLE": "មិនអនុញ្ញាត"
       },
       "MY_TICKET": {
         "TITLE": "សំបុត្ររបស់ខ្ញុំ",
@@ -5965,7 +6031,14 @@
         "GET_YOUR_POPCORN_READY": "កម្មង់ពោតលីងរបស់អ្នកឥឡូវនេះ",
         "ORDER_NOW": "កម្មង់ឥឡូវនេះ",
         "SHOW_QR": "បង្ហាញ QR",
-        "SCAN_QR_CODE_AT_THE_TICKET_COUNTER_OR_KIOSK_MACHINE": "ស្កែន​QRកូដរបស់អ្នកនៅកន្លែងបញ្ចាំងឬនៅក្នុងម៉ាស៊ីនKIOSKរបស់យើង"
+        "SCAN_QR_CODE_AT_THE_TICKET_COUNTER_OR_KIOSK_MACHINE": "ស្កែនQRកូដរបស់អ្នកនៅកន្លែងបញ្ចាំងឬនៅក្នុងម៉ាស៊ីនKIOSKរបស់យើង",
+        "EARNING_WING_POINTS": "ទទួលបាន +{{point}} វិងភ័ញ",
+        "WINGPOINTS_HAS_BEEN_TRANSFERRED": "វីងភ័ញត្រូវបានផ្ទេររួចហើយ។"
+      },
+      "COMMON": {
+        "BTN": {
+          "CLOSE": "បិទ"
+        }
       },
       "MOVIE_TICKETS": {
         "EMPTY_ORDER": "មិនមានការបញ្ជាទិញទេ",
