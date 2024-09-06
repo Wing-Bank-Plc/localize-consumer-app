@@ -1643,7 +1643,11 @@
         "DELIVERY_NOTE_PLACEHOLDER": "e.g. Please put on front porch",
         "CONFIRM_ADDRESS_DESCRIPTION": "Please select or add a delivery address to proceed with the order.",
         "GO_TO_ADDRESS_BOOK": "Go to Address Book",
-        "LOCATION_IS_REQUIRED": "Location is required"
+        "LOCATION_IS_REQUIRED": "Location is required",
+        "ORDER_ESTIMATED_TIME_SAME_DAY_DELIVERY": "Within 5 hours",
+        "ORDER_ESTIMATED_TIME_INSTANT_DELIVERY": "Within 30 minutes",
+        "ENABLE_DELIVERY": "Enable Express Service",
+        "DELIVERY_NOTE_DESCRIPTION": "Update your address to enable Express Service. Available in selected areas"
       },
       "CATEGORY_SCREEN": {
         "CATEGORY": "Category",
@@ -3658,7 +3662,11 @@
         "DELIVERY_NOTE_PLACEHOLDER": "e.g. Please put on front porch",
         "CONFIRM_ADDRESS_DESCRIPTION": "Please select or add a delivery address to proceed with the order.",
         "GO_TO_ADDRESS_BOOK": "Go to Address Book",
-        "LOCATION_IS_REQUIRED": "Location is required"
+        "LOCATION_IS_REQUIRED": "Location is required",
+        "ORDER_ESTIMATED_TIME_SAME_DAY_DELIVERY": "Within 5 hours",
+        "ORDER_ESTIMATED_TIME_INSTANT_DELIVERY": "Within 30 minutes",
+        "ENABLE_DELIVERY": "Enable Express Service",
+        "DELIVERY_NOTE_DESCRIPTION": "Update your address to enable Express Service. Available in selected areas"
       },
       "CATEGORY_SCREEN": {
         "CATEGORY": "Category",
@@ -5674,7 +5682,11 @@
         "DELIVERY_NOTE_PLACEHOLDER": "ឧ.សូមដាក់រៀនហាលខាងមុខ",
         "CONFIRM_ADDRESS_DESCRIPTION": "សូមជ្រើសរើស ឬបន្ថែមអាសយដ្ឋានដឹកជញ្ជូន ដើម្បីបន្តការបញ្ជាទិញ",
         "GO_TO_ADDRESS_BOOK": "ចូលទៅកាន់សៀវភៅអាស័យដ្ឋាន",
-        "LOCATION_IS_REQUIRED": "សូមដាក់ទីតាំងដឹកជញ្ជូន"
+        "LOCATION_IS_REQUIRED": "សូមដាក់ទីតាំងដឹកជញ្ជូន",
+        "ORDER_ESTIMATED_TIME_SAME_DAY_DELIVERY": "ក្នុងរយៈពេល ៥ ម៉ោង",
+        "ORDER_ESTIMATED_TIME_INSTANT_DELIVERY": "ក្នុងរយៈពេល ៣០ នាទី",
+        "ENABLE_DELIVERY": "បើកសេវាកម្មរហ័ស",
+        "DELIVERY_NOTE_DESCRIPTION": "ធ្វើបច្ចុប្បន្នភាពអាសយដ្ឋានរបស់អ្នកដើម្បីបើកសេវាកម្មរហ័ស។ មាននៅក្នុងតំបន់ដែលបានជ្រើសរើស"
       },
       "CATEGORY_SCREEN": {
         "CATEGORY": "ប្រភេទ",
