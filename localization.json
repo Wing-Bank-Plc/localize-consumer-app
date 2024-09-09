@@ -5685,8 +5685,8 @@
         "LOCATION_IS_REQUIRED": "សូមដាក់ទីតាំងដឹកជញ្ជូន",
         "ORDER_ESTIMATED_TIME_SAME_DAY_DELIVERY": "ក្នុងរយៈពេល ៥ ម៉ោង",
         "ORDER_ESTIMATED_TIME_INSTANT_DELIVERY": "ក្នុងរយៈពេល ៣០ នាទី",
-        "ENABLE_DELIVERY": "បើកសេវាកម្មរហ័ស",
-        "DELIVERY_NOTE_DESCRIPTION": "ធ្វើបច្ចុប្បន្នភាពអាសយដ្ឋានរបស់អ្នកដើម្បីបើកសេវាកម្មរហ័ស។ មាននៅក្នុងតំបន់ដែលបានជ្រើសរើស"
+        "ENABLE_DELIVERY": "ដំណើរការសេវាកម្មដឹករហ័ស",
+        "DELIVERY_NOTE_DESCRIPTION": "កែរប្រែអាសយដ្ឋានរបស់អ្នកដើម្បីំដំណើរការសេវាកម្មដឹករហ័ស។ សេវាកម្មដឹករហ័សមាននៅក្នុងតំបន់ដែលបានជ្រើសរើស។"
       },
       "CATEGORY_SCREEN": {
         "CATEGORY": "ប្រភេទ",
