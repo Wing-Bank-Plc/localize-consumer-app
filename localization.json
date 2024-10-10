@@ -1292,6 +1292,7 @@
       },
       "CHECKOUT_SCREEN": {
         "CHECKOUT": "Checkout",
+        "DELIVERY_FEE_DISCOUNT": "Delivery Fee Discount",
         "PRODUCT_INFORMATION": "Product Information",
         "PAYMENT_OPTION": "Payment Options",
         "PAYMENT_INFORMATION": "Payment Information",
@@ -3311,6 +3312,7 @@
       },
       "CHECKOUT_SCREEN": {
         "CHECKOUT": "Checkout",
+        "DELIVERY_FEE_DISCOUNT": "Delivery Fee Discount",
         "PRODUCT_INFORMATION": "Product Information",
         "PAYMENT_OPTION": "Payment Options",
         "PAYMENT_INFORMATION": "Payment Information",
@@ -5331,6 +5333,7 @@
       },
       "CHECKOUT_SCREEN": {
         "CHECKOUT": "គិតលុយ",
+        "DELIVERY_FEE_DISCOUNT": "ថ្លៃដឹកជញ្ជូនបញ្ចុះតម្លៃ",
         "PRODUCT_INFORMATION": "ព៍តមានផលិតផល",
         "PAYMENT_OPTION": "ជម្រើសទូទាត់",
         "PAYMENT_INFORMATION": "ព៍តមានបង់ប្រាក់",
