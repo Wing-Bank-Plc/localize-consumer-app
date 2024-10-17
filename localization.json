@@ -1156,7 +1156,10 @@
       "social_sign_in_error": "We encountered an error while attempting to sign in with social.",
       "custom_token_empty": "Custom token is empty",
       "id_token_fetch_error": "Failed to get ID token",
-      "phone_number_connection_error": "Failed to connect with phone number"
+      "phone_number_connection_error": "Failed to connect with phone number",
+      "connect": "Connect",
+      "connected": "Connected",
+      "primary_account": "Primary"
     },
     "SHOPPING": {
       "HOME_SCREEN": {
@@ -3182,7 +3185,10 @@
       "social_sign_in_error": "We encountered an error while attempting to sign in with social.",
       "custom_token_empty": "Custom token is empty",
       "id_token_fetch_error": "Failed to get ID token",
-      "phone_number_connection_error": "Failed to connect with phone number"
+      "phone_number_connection_error": "Failed to connect with phone number",
+      "connect": "Connect",
+      "connected": "Connected",
+      "primary_account": "Primary"
     },
     "SHOPPING": {
       "HOME_SCREEN": {
@@ -5209,7 +5215,10 @@
       "social_sign_in_error": "We encountered an error while attempting to sign in with social.",
       "custom_token_empty": "Custom token is empty",
       "id_token_fetch_error": "Failed to get ID token",
-      "phone_number_connection_error": "Failed to connect with phone number"
+      "phone_number_connection_error": "Failed to connect with phone number",
+      "connect": "ភ្ជាប់",
+      "connected": "បានភ្ជាប់",
+      "primary_account": "គណនីគោល"
     },
     "SHOPPING": {
       "HOME_SCREEN": {
