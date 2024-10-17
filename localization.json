@@ -1,6 +1,7 @@
 {
   "en": {
     "WINGMALL": {
+      "password_reminder_headline": "Set password to secure your account",
       "finding_location": "Finding Location...",
       "rider_tip": "Rider's Tip",
       "no_cashback_voucher": "No cashback available",
@@ -2020,6 +2021,7 @@
   },
   "cn": {
     "WINGMALL": {
+      "password_reminder_headline": "设置密码以保护您的帐户",
       "finding_location": "寻找位置...",
       "rider_tip": "骑手小费",
       "no_cashback_voucher": "没有可用现金返还",
@@ -4039,6 +4041,7 @@
   },
   "km": {
     "WINGMALL": {
+      "password_reminder_headline": "កំណត់ពាក្យសម្ងាត់ដើម្បីធានាគណនីរបស់អ្នក",
       "finding_location": "កំពុងស្វែងរកទីតាំង...",
       "rider_tip": "ធីបសម្រាប់អ្នកដឹកជញ្ជួន",
       "no_cashback_voucher": "មិនមានកញ្ចប់ទឹកប្រាក់ត្រលប់ទេ",
