@@ -2005,7 +2005,8 @@
         "NOTICED": "Noticed",
         "CANNOT_REDEEM_WITH_WING_POINTS": "This promo code is not eligible to apply with Wingpoints, Would you like to continue?",
         "NOT_ELIGIBLE_WITH_PROMO_CODE": "Not eligible with this promo code",
-        "NOT_ELIGIBLE": "Not eligible"
+        "NOT_ELIGIBLE": "Not eligible",
+        "CASH_BACK": "Cash Back"
       },
       "COMMON": {
         "BTN": {
@@ -4035,7 +4036,8 @@
         "NOTICED": "注意到",
         "CANNOT_REDEEM_WITH_WING_POINTS": "此促銷代碼不適用於 Wingpoints，您想繼續嗎？",
         "NOT_ELIGIBLE_WITH_PROMO_CODE": "不符合使用此促銷代碼的資格",
-        "NOT_ELIGIBLE": "不容忽視"
+        "NOT_ELIGIBLE": "不容忽視",
+        "CASH_BACK": "Cash Back"
       },
       "MY_TICKET": {
         "TITLE": "我的票",
@@ -6067,7 +6069,8 @@
         "NOTICED": "បានកត់សម្គាល់",
         "CANNOT_REDEEM_WITH_WING_POINTS": "កូដបញ្ចុះតម្លៃនេះមិនអនុញ្ញាតប្រើជាមួយ Wingpoints ទេ តើអ្នកចង់បន្តទេ?",
         "NOT_ELIGIBLE_WITH_PROMO_CODE": "មិនអនុញ្ញាតប្រើជាមួយកូដបញ្ចុះតម្លៃ",
-        "NOT_ELIGIBLE": "មិនអនុញ្ញាត"
+        "NOT_ELIGIBLE": "មិនអនុញ្ញាត",
+        "CASH_BACK": "Cash Back"
       },
       "MY_TICKET": {
         "TITLE": "សំបុត្ររបស់ខ្ញុំ",
