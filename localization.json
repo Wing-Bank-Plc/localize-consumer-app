@@ -1150,7 +1150,8 @@
       "social_already_connected": "This social account is already connected to another account",
       "phone_already_connected_label": "Phone number already used",
       "phone_already_connected_description": "This phone number is already connected to another account, please use another phone number.",
-      "unstable_internet_connection": "Your internet connection is unstable."
+      "unstable_internet_connection": "Your internet connection is unstable.",
+      "found_driver": "Found Driver"
     },
     "SHOPPING": {
       "HOME_SCREEN": {
@@ -3171,7 +3172,8 @@
       "social_already_connected": "This social account is already connected to another account",
       "phone_already_connected_label": "Phone number already used",
       "phone_already_connected_description": "This phone number is already connected to another account, please use another phone number.",
-      "unstable_internet_connection": "您的互联网连接不稳定"
+      "unstable_internet_connection": "您的互联网连接不稳定",
+      "found_driver": "找到送货员"
     },
     "SHOPPING": {
       "HOME_SCREEN": {
@@ -5193,7 +5195,8 @@
       "social_already_connected": "បណ្តាញសង្គមនេះបានភ្ជាប់ជាមួយគណនីដទៃ",
       "phone_already_connected_label": "លេខទូរស័ព្ទបានប្រើប្រាស់រួច",
       "phone_already_connected_description": "លេខទូរស័ព្ទបានភ្ជាប់រួចរាល់ សូមប្រើលេខទូរស័ព្ទផ្សេង",
-      "unstable_internet_connection": "អ៊ីនធឺណិតរបស់អ្នកមិនមានស្ថេរភាពនោះទេ។"
+      "unstable_internet_connection": "អ៊ីនធឺណិតរបស់អ្នកមិនមានស្ថេរភាពនោះទេ។",
+      "found_driver": "បានរកឃើញអ្នកដឹកជញ្ជូន"
     },
     "SHOPPING": {
       "HOME_SCREEN": {
