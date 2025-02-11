@@ -565,7 +565,7 @@
       "modal_nearby_title": "Estimated Time of Arrival",
       "nearby": "Fast Delivery",
       "label_ok": "OK",
-      "free_delivery_by_mdr": "Spent ${{minimumOrderValue}}, Free Delivery",
+      "free_delivery_by_mdr": "Spend ${{minimumOrderValue}}, Free Delivery",
       "profile": "Profile",
       "set_age": "Set Age",
       "setup_profile": "Set up your profile",
@@ -1444,7 +1444,7 @@
         "PLACEHOLDER_TIP": "Ex: $5",
         "TAP_TO_CHANGE": "Tap to change",
         "WARNING_LOCATION_CHANGE": "You've changed location; add more items to get free delivery.",
-        "DELIVERY_OFFER_BY_ORDER": "Spent ${{minOrder}}, Get ${{discountOffer}} Delivery Discount",
+        "DELIVERY_OFFER_BY_ORDER": "Spend ${{minOrder}}, Get ${{discountOffer}} Delivery Discount",
         "CONGRATS_DELIVERY_OFFER": "Congratulations! You get ${{discountOffer}} delivery discount",
         "GET_DELIVERY_OFFER": "more, get ${{discountOffer}} delivery discount"
       },
