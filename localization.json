@@ -2016,7 +2016,7 @@
       },
       "MOVIE_TICKETS": {
         "EMPTY_ORDER": "No booking found.",
-        "VIEW_SHOWTIME": "View Showtime"
+        "VIEW_SHOWTIME": "VIEW SHOWTIME"
       }
     }
   },
