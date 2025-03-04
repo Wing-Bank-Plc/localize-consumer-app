@@ -1446,7 +1446,8 @@
         "WARNING_LOCATION_CHANGE": "You've changed location; add more items to get free delivery.",
         "DELIVERY_OFFER_BY_ORDER": "Spend ${{minOrder}}, Get ${{discountOffer}} Delivery Discount",
         "CONGRATS_DELIVERY_OFFER": "Congratulations! You get ${{discountOffer}} delivery discount",
-        "GET_DELIVERY_OFFER": "more, get ${{discountOffer}} delivery discount"
+        "GET_DELIVERY_OFFER": "more, get ${{discountOffer}} delivery discount",
+        "PAY_WITH": "Pay with {{paymentMethod}} to get {{cashbackAmount}} cashback."
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "My Order",
@@ -3467,7 +3468,8 @@
         "WARNING_LOCATION_CHANGE": "您已更改位置；添加更多商品即可享受免费送货。",
         "DELIVERY_OFFER_BY_ORDER": "花费 ${{minOrder}}, 得到 ${{discountOffer}} 送货折扣",
         "CONGRATS_DELIVERY_OFFER": "恭喜！您可获得 ${{discountOffer}} 送货折扣",
-        "GET_DELIVERY_OFFER": "更多，可获得 ${{discountOffer}} 送货折扣"
+        "GET_DELIVERY_OFFER": "更多，可获得 ${{discountOffer}} 送货折扣",
+        "PAY_WITH": "使用 {{ paymentMethod}} 付款可获得 {{cashbackAmount}} 现金返还。"
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "My Order",
@@ -5489,7 +5491,8 @@
         "WARNING_LOCATION_CHANGE": "អ្នកបានផ្លាស់ប្តូរទីតាំង; បន្ថែមទំនិញដើម្បីទទួលបានការដឹកជញ្ជូនដោយឥតគិតថ្លៃ។",
         "DELIVERY_OFFER_BY_ORDER": "ចំណាយ ${{minOrder}}, ទទួលបាន ${{discountOffer}} ការបញ្ចុះតម្លៃដឹកជញ្ជូន",
         "CONGRATS_DELIVERY_OFFER": "អបអរសាទរ! អ្នកទទួលបាន ${{discountOffer}} ការបញ្ចុះតម្លៃដឹកជញ្ជូន",
-        "GET_DELIVERY_OFFER": "បន្ថែម, ទទួលបាន ${{discountOffer}} ការបញ្ចុះតម្លៃដឹកជញ្ជូន"
+        "GET_DELIVERY_OFFER": "បន្ថែម, ទទួលបាន ${{discountOffer}} ការបញ្ចុះតម្លៃដឹកជញ្ជូន",
+        "PAY_WITH": "ចាយជាមួយ {{paymentMethod}} ដើម្បីទទួលបាន {{cashbackAmount}} ត្រឡប់មកវិញ"
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "ការកម្មង់របស់ខ្ញុំ",
