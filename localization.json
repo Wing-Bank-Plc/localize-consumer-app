@@ -1531,7 +1531,7 @@
         "OTHER_REASON": "Other reason",
         "STATUS": "Status",
         "DELIVERY_STATUS": "Delivery Status",
-        "ORDER_AT": "Order At",
+        "ORDER_AT": "Order at",
         "TRACK_ORDER_STATUS": {
           "ORDER_TIMELINE": {
             "PLACED": {
@@ -3554,7 +3554,7 @@
         "OTHER_REASON": "Other reason",
         "STATUS": "Status",
         "DELIVERY_STATUS": "Delivery Status",
-        "ORDER_AT": "Order At",
+        "ORDER_AT": "Order at",
         "TRACK_ORDER_STATUS": {
           "ORDER_TIMELINE": {
             "PLACED": {
