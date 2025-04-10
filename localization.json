@@ -1153,6 +1153,7 @@
       "unstable_internet_connection": "Your internet connection is unstable."
     },
     "SHOPPING": {
+      "TITLE": "Shopping",
       "HOME_SCREEN": {
         "SEARCH": "Search...",
         "SHOP_NOW": "Shop Now",
@@ -3176,6 +3177,7 @@
       "unstable_internet_connection": "您的互联网连接不稳定"
     },
     "SHOPPING": {
+      "TITLE": "Shopping",
       "HOME_SCREEN": {
         "SEARCH": "Search...",
         "SHOP_NOW": "Shop Now",
@@ -5200,6 +5202,7 @@
       "unstable_internet_connection": "អ៊ីនធឺណិតរបស់អ្នកមិនមានស្ថេរភាពនោះទេ។"
     },
     "SHOPPING": {
+      "TITLE": "Shopping",
       "HOME_SCREEN": {
         "SEARCH": "ស្វែងរក",
         "SHOP_NOW": "ទិញឥឡូវនេះ",
