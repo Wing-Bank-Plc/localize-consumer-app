@@ -1153,7 +1153,7 @@
       "unstable_internet_connection": "Your internet connection is unstable."
     },
     "SHOPPING": {
-      "TITLE": "Shop",
+      "TITLE": "Wingshop",
       "HOME_SCREEN": {
         "SEARCH": "Search...",
         "SHOP_NOW": "Shop Now",
@@ -3177,7 +3177,7 @@
       "unstable_internet_connection": "您的互联网连接不稳定"
     },
     "SHOPPING": {
-      "TITLE": "电子商务购物",
+      "TITLE": "Wing 店",
       "HOME_SCREEN": {
         "SEARCH": "Search...",
         "SHOP_NOW": "Shop Now",
@@ -5202,7 +5202,7 @@
       "unstable_internet_connection": "អ៊ីនធឺណិតរបស់អ្នកមិនមានស្ថេរភាពនោះទេ។"
     },
     "SHOPPING": {
-      "TITLE": "ទំនិញអនឡាញ",
+      "TITLE": "វីងសប",
       "HOME_SCREEN": {
         "SEARCH": "ស្វែងរក",
         "SHOP_NOW": "ទិញឥឡូវនេះ",
