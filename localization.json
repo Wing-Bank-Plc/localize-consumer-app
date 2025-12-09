@@ -1155,7 +1155,15 @@
       "unstable_internet_connection": "Your internet connection is unstable.",
       "scan": "Scan",
       "server_error_title": "Oops! Something’s not quite right",
-      "server_error_description": "Looks like we’re having a little trouble at the moment. Don’t worry — we’re on it and things should be back to normal soon."
+      "server_error_description": "Looks like we’re having a little trouble at the moment. Don’t worry — we’re on it and things should be back to normal soon.",
+      "item_redemption": "Item Redemption",
+      "item_out_of_stock_warning": "Oops! The item you redeemed is out of stock",
+      "item_out_of_stock_news": "Your redemption has been converted into a voucher for use at {{store_name}}. For more information, please contact our Support Center.",
+      "item_out_of_stock_news_title": "Good news!",
+      "item_not_found": "Item Not Found",
+      "item_not_found_warning": "The item you are looking for is currently unavailable.",
+      "item_not_found_news": "The item you are looking for is not available right now. Please check back later.",
+      "item_not_found_news_title": "Oops!"
     },
     "SHOPPING": {
       "TITLE": "Wingshop",
@@ -3190,7 +3198,15 @@
       "unstable_internet_connection": "您的互联网连接不稳定",
       "scan": "扫描",
       "server_error_title": "哎呀！好像有点小问题",
-      "server_error_description": "我们现在遇到了一点小麻烦。别担心 — 我们正在处理，很快就会恢复正常。"
+      "server_error_description": "我们现在遇到了一点小麻烦。别担心 — 我们正在处理，很快就会恢复正常。",
+      "item_redemption": "Item Redemption",
+      "item_out_of_stock_warning": "Oops! The item you redeemed is out of stock",
+      "item_out_of_stock_news": "Your redemption has been converted into a voucher for use at {{store_name}}. For more information, please contact our Support Center.",
+      "item_out_of_stock_news_title": "Good news!",
+      "item_not_found": "Item Not Found",
+      "item_not_found_warning": "The item you are looking for is currently unavailable.",
+      "item_not_found_news": "The item you are looking for is not available right now. Please check back later.",
+      "item_not_found_news_title": "Oops!"
     },
     "SHOPPING": {
       "TITLE": "Wing 店",
@@ -5226,7 +5242,15 @@
       "unstable_internet_connection": "អ៊ីនធឺណិតរបស់អ្នកមិនមានស្ថេរភាពនោះទេ។",
       "scan": "ស្កេន",
       "server_error_title": "អូ! មានអ្វីមិនប្រក្រតីបន្តិច",
-      "server_error_description": "ដូចជាមានបញ្ហាបន្តិចបន្តួចក្នុងពេលនេះ។ កុំបារម្ភ — ពួកយើងកំពុងដោះស្រាយ ហើយវានឹងត្រឡប់មកដូចធម្មតាឆាប់ៗនេះ។"
+      "server_error_description": "ដូចជាមានបញ្ហាបន្តិចបន្តួចក្នុងពេលនេះ។ កុំបារម្ភ — ពួកយើងកំពុងដោះស្រាយ ហើយវានឹងត្រឡប់មកដូចធម្មតាឆាប់ៗនេះ។",
+      "item_redemption": "Item Redemption",
+      "item_out_of_stock_warning": "Oops! The item you redeemed is out of stock",
+      "item_out_of_stock_news": "Your redemption has been converted into a voucher for use at {{store_name}}. For more information, please contact our Support Center.",
+      "item_out_of_stock_news_title": "Good news!",
+      "item_not_found": "Item Not Found",
+      "item_not_found_warning": "The item you are looking for is currently unavailable.",
+      "item_not_found_news": "The item you are looking for is not available right now. Please check back later.",
+      "item_not_found_news_title": "Oops!"
     },
     "SHOPPING": {
       "TITLE": "វីងសប",
