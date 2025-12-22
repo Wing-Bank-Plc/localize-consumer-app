@@ -1468,7 +1468,13 @@
         "DELIVERY_OFFER_BY_ORDER": "Spend ${{minOrder}}, Get ${{discountOffer}} Delivery Discount",
         "CONGRATS_DELIVERY_OFFER": "Congratulations! You get ${{discountOffer}} delivery discount",
         "GET_DELIVERY_OFFER": "more, get ${{discountOffer}} delivery discount",
-        "PAY_WITH": "Pay with {{paymentMethod}} to get {{cashbackAmount}} cashback."
+        "PAY_WITH": "Pay with {{paymentMethod}} to get {{cashbackAmount}} cashback.",
+        "EXPRESS_LIVE_TRACKING_TITLE": "Live Tracking",
+        "EXPRESS_LIVE_TRACKING_DESCRIPTION": "Track your express delivery live here: {{trackingLink}}",
+        "NOTE":"Note",
+        "SHARE": "Share",
+        "GET_FREE_DELIVERY_OFFER": "more to get free delivery and avoid small order fee",
+        "GET_FREE_DELIVERY_OFFER_CHECKOUT": "more to avoid small order fee"
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "My Order",
@@ -3511,7 +3517,13 @@
         "DELIVERY_OFFER_BY_ORDER": "花费 ${{minOrder}}, 得到 ${{discountOffer}} 送货折扣",
         "CONGRATS_DELIVERY_OFFER": "恭喜！您可获得 ${{discountOffer}} 送货折扣",
         "GET_DELIVERY_OFFER": "更多，可获得 ${{discountOffer}} 送货折扣",
-        "PAY_WITH": "使用 {{ paymentMethod}} 付款可获得 {{cashbackAmount}} 现金返还。"
+        "PAY_WITH": "使用 {{ paymentMethod}} 付款可获得 {{cashbackAmount}} 现金返还。",
+        "EXPRESS_LIVE_TRACKING_TITLE": "快递实时跟踪",
+        "EXPRESS_LIVE_TRACKING_DESCRIPTION": "在这里实时跟踪您的快递配送: {{trackingLink}}",
+        "NOTE":"注意",
+        "SHARE": "分享",
+        "GET_FREE_DELIVERY_OFFER": "即可享受免运费并避免小额订单手续费",
+        "GET_FREE_DELIVERY_OFFER_CHECKOUT": "即可避免小额订单手续费"
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "My Order",
@@ -5555,7 +5567,13 @@
         "DELIVERY_OFFER_BY_ORDER": "ចំណាយ ${{minOrder}}, ទទួលបាន ${{discountOffer}} ការបញ្ចុះតម្លៃដឹកជញ្ជូន",
         "CONGRATS_DELIVERY_OFFER": "អបអរសាទរ! អ្នកទទួលបាន ${{discountOffer}} ការបញ្ចុះតម្លៃដឹកជញ្ជូន",
         "GET_DELIVERY_OFFER": "បន្ថែម, ទទួលបាន ${{discountOffer}} ការបញ្ចុះតម្លៃដឹកជញ្ជូន",
-        "PAY_WITH": "ចាយជាមួយ {{paymentMethod}} ដើម្បីទទួលបាន {{cashbackAmount}} ត្រឡប់មកវិញ"
+        "PAY_WITH": "ចាយជាមួយ {{paymentMethod}} ដើម្បីទទួលបាន {{cashbackAmount}} ត្រឡប់មកវិញ",
+        "EXPRESS_LIVE_TRACKING_TITLE": "តាមដានការដឹកជញ្ជូនរហ័ស",
+        "EXPRESS_LIVE_TRACKING_DESCRIPTION": "តាមដានការដឹកជញ្ជូនរហ័សរបស់អ្នកផ្ទាល់នៅទីនេះ: {{trackingLink}}",
+        "NOTE":"ចំណាំ",
+        "SHARE": "ចែករំលែក",
+        "GET_FREE_DELIVERY_OFFER": "ទៀតដើម្បីទទួលបានការដឹកជញ្ជូនឥតគិតថ្លៃ និងមិនមានថ្លៃកុម្ម៉ង់តិចតួច",
+        "GET_FREE_DELIVERY_OFFER_CHECKOUT": "ទៀតដើម្បីកាត់ថ្លៃកុម្ម៉ង់តិចតួច"
       },
       "ORDER_SCREEN": {
         "MY_ORDER": "ការកម្មង់របស់ខ្ញុំ",
